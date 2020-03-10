@@ -1,0 +1,8 @@
+Será desenvolvido um sistema meteorológico para monitorar o crescimento de uma planta. 
+O monitoramento será feito analisando as seguintes características: 
+
+- ph do solo; 
+- umidade do solo;
+- temperatura ambiente;
+- índice pluviométrico; 
+- fluxo do vento. 
