@@ -11,3 +11,9 @@
 <p>
   Sendo assim, sempre que o sistema liga ou desliga a bomba, uma mensagem é enviada ao usuário via módulo Bluetooth, atualizando o status da bomba de água e da umidade do solo, tornando este sistema bastante útil em fazendas, jardins e residências. Por se tratar de um sistema inteiramente automatizado, não haverá necessidade de intervenção humana.
 </p>
+
+# Design do Projeto <h2>
+<p>
+  Afim de facilitar a compreensão do funcionamento do projeto, antes de partir para experimentações práticas, foram realizadas a construção de uma Planta Eletrônica, explicitada pela figura 1, e a elaboração de um diagrama de bloco, figura 2, para que tanto criar, previamente, uma visão espacial do projeto, quanto para deixar evidente e inteligível todas as etapas de processos dos componentes envolvidos.
+</p>
+  
