@@ -14,6 +14,8 @@
 
 # Design do Projeto <h2>
 <p>
-  Afim de facilitar a compreensão do funcionamento do projeto, antes de partir para experimentações práticas, foram realizadas a construção de uma Planta Eletrônica, explicitada pela figura 1, e a elaboração de um diagrama de bloco, figura 2, para que tanto criar, previamente, uma visão espacial do projeto, quanto para deixar evidente e inteligível todas as etapas de processos dos componentes envolvidos.
+  Afim de facilitar a compreensão do funcionamento do projeto, antes de partir para experimentações práticas, foram realizadas a construção de uma Planta Eletrônica, explicitada pela Figura 1, e a elaboração de um diagrama de bloco, Figura 2, para que tanto criar, previamente, uma visão espacial do projeto, quanto para deixar evidente e inteligível todas as etapas de processos dos componentes envolvidos.
 </p>
-  
+
+![Figura 1: Planta Eletrônica](https://imgur.com/4yaAxxI)
+![Figura 2: Diagrama de Blocos](https://imgur.com/oX0SeF2)
