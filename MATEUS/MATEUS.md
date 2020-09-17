@@ -9,6 +9,6 @@ Com o intuito de exemplificar o que será feito no projeto e tornar visíves as 
 
 
 
-![Figura 1](https://github.com/LPAE/pi2_eng_20_1/blob/master/Planta%20img.png)
+![Figura 1](https://github.com/LPAE/pi2_eng_20_1/blob/master/design.png)
 Figura 1
 
