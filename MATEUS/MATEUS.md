@@ -6,6 +6,9 @@ Elaborar um sistema de irrigação inteligente para plantas domésticas, de tal 
 
 ## Design 
 Com o intuito de exemplificar o que será feito no projeto e tornar visíves as etapas, foi desenvolvido com o aplicativo fritzing a planta eletrônica do projeto conforme a figura 1. Na sequência foi elaborado o diagrama de blocos com fluxo de informações do projeto conforme a figura 2. A finalidade deste é deixar claro como será o fluxo de dados desde a coleta dos parametros pelos sensores até a irrigação de fato.
-![Figura 1](https://github.com/LPAE/pi2_eng_20_1/blob/master/Planta%20img.png)
 
+
+
+![Figura 1](https://github.com/LPAE/pi2_eng_20_1/blob/master/Planta%20img.png)
+Figura 1
 
