@@ -22,3 +22,6 @@ Abaixo serão listados todos os componentes do sistema e qual função realizar�
 **- Válvula Solenóide 12v:** Responsável pelo controle de fluxo de água, ao receber corrente, ela é aberta, liberando a passagem de água e permitindo a irrigação da planta.
 	
 **- Módulo HC 05:** Será o módulo Bluetooth responsável por fazer a comunicação entre o sistema de irrigação e um aplicativo de smartphone que irá informar através de uma interface, os dados recolhidos pelos sensores.
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Diagrama%20de%20blocos.PNG)
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Planta%20-%20Sist_irrig_2020_1.PNG)
