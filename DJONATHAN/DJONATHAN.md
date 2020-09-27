@@ -12,7 +12,10 @@ Neste projeto será desenvolvido um sistema de irrigação para plantas de peque
 ​	**- Arduino MEGA 2560 R3:** Placa microcontroladora programável que é responsável por comandar todo o sistema, recebendo e enviando dados para os demais módulos.
 
 ​	**- Módulo DHT11:** É um sensor responsável pela medição da temperatura e umidade do ambiente, fatores importantes para determinar a necessidade de irrigação ou não.
+
 **- Sensor de Umidade do Solo Higrômetro:** Responsável por enviar um sinal analógico ao Arduino referente a umidade do solo no qual ele está depositado. 
+
 **- Módulo Relé 5v de um canal:** Dispositivo eletromecânico que trabalha com a comutação de contatos. Por ter apenas um canal, ele tem apenas dois estados de chaveamento e irá determinar o envio de corrente ou não a válvula solenóide.
+
 **- Válvula Solenóide 12v:** Responsável pelo controle de fluxo de água, ao receber corrente, ela é aberta, liberando a passagem de água e permitindo a irrigação da planta.
 ​	**- Módulo HC 05:** Será o módulo Bluetooth responsável por fazer a comunicação entre o sistema de irrigação e um aplicativo de smartphone que irá informar através de uma interface, os dados recolhidos pelos sensores.
