@@ -4,9 +4,10 @@ Desenvolvimento de sistema de irrigação microcontrolado
 
 Neste projeto será desenvolvido um sistema de irrigação para plantas de pequeno porte (que posteriormente pode ser ampliado e aplicado em diferentes tipos de planta) que utilizará, dentro de um circuito microcontrolado, medições de algumas grandezas como temperatura ambiente e umidade do ambiente e do solo para determinar a abertura da válvula de um compartimento de água. Além do próprio sistema, será desenvolvido um aplicativo compatível com smartphone/tablet para monitoramento do sistema e das condições atuais da planta.
 
-**2 - Design do projeto****
+**2 - Design do projeto**
 ****
-****Componente por componente**
+**Componente por componente**
+
 	O sistema de irrigação microcontrolado possui “blocos” específicos para cada medida. Abaixo serão listados todos os componentes do sistema e qual função realizarão dentro do projeto:
 
 ​	**- Arduino MEGA 2560 R3:** Placa microcontroladora programável que é responsável por comandar todo o sistema, recebendo e enviando dados para os demais módulos.
