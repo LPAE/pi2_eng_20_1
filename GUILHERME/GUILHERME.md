@@ -35,23 +35,23 @@ _________________________________________________________________________
 
 2. **Válvula Solenóide de 12V NC**
 
-![](Fotos PI/válvula.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/v%C3%A1lvula.png)
 
 3. **Módulo relé de 5V**
 
-![](Fotos PI/relé.jpg)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/rel%C3%A9.jpg)
 
 4. **Sensor de umidade do solo higrômetro**
 
-![](Fotos PI/sensor umidade do solo.jpg)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/sensor%20umidade%20do%20solo.jpg)
 
 5. **Sensor DHT11**
 
-![](Fotos PI/dht 11.jpg)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/dht%2011.jpg)
 
 6. **Módulo Bluetooth HC-05**
 
-![](Fotos PI/hc 05.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/hc%2005.png)
 
 # Design do Projeto <h2>
 <p>
