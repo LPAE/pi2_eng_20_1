@@ -1,9 +1,9 @@
 # Projeto Integrador II - 2020/1
 
-  Instituto Federal de Santa Catarina
-  Departamento Acadêmico de Eletrônica
-  Professores: Fernando Pedro Henrique de Miranda e Luiz Alberto de Azevedo
-  Aluno: Guilherme da Costa Franco - guilherme3379@gmail.com
+Instituto Federal de Santa Catarina
+Departamento Acadêmico de Eletrônica
+Professores: Fernando Pedro Henrique de Miranda e Luiz Alberto de Azevedo
+Aluno: Guilherme da Costa Franco - guilherme3379@gmail.com
   
 _________________________________________________________________________  
 
