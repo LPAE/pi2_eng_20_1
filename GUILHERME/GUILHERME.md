@@ -60,7 +60,8 @@ _________________________________________________________________________
   
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/projeto%20fritzing.png)
 Figura 1
-Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduino, e de 12V para a alimentação da válvula solenóide.
+
+Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduino, e de 12V, para a alimentação da válvula solenóide, devido a ausência destes componentes na biblioteca do Fritzing.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/diagrama%20de%20bloco.png)
 Figura 2
