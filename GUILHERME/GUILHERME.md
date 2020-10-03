@@ -26,12 +26,12 @@ _________________________________________________________________________
   O sistema a ser elaborado possui diversos segmentos distintos que serão análisados e interpretados por um microcontrolador e enviados ao usuário. A seguir, serão listados todos os componentes envolvidos para o desenvolvimento do sistema proposto. São eles:
 </p>
 
-1.**Arduino MEGA 2560**
-2.**Válvula Solenóide de 12V NC**
-3.**Módulo relé de 5V**
-4.**Sensor de umidade do solo higrômetro**
-5.**Sensor DHT11**
-6.**Módulo Bluetooth HC-05**
+1. **Arduino MEGA 2560**
+2. **Válvula Solenóide de 12V NC**
+3. **Módulo relé de 5V**
+4. **Sensor de umidade do solo higrômetro**
+5. **Sensor DHT11**
+6. **Módulo Bluetooth HC-05**
 
 # Design do Projeto <h2>
 <p>
