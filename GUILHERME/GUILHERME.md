@@ -31,7 +31,7 @@ _________________________________________________________________________
 
 1. **Arduino MEGA 2560**
 
-![](Fotos PI/arduino mega.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/arduino%20mega.png)
 
 2. **Válvula Solenóide de 12V NC**
 
