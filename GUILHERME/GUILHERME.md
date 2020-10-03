@@ -30,22 +30,28 @@ _________________________________________________________________________
 </p>
 
 1. **Arduino MEGA 2560**
-![alt text](Fotos PI/arduino mega.png)
+
+![](Fotos PI/arduino mega.png)
 
 2. **Válvula Solenóide de 12V NC**
-![alt text](Fotos PI/válvula.png)
+
+![](Fotos PI/válvula.png)
 
 3. **Módulo relé de 5V**
-![alt text](Fotos PI/relé.jpg)
+
+![](Fotos PI/relé.jpg)
 
 4. **Sensor de umidade do solo higrômetro**
-![alt text](Fotos PI/sensor umidade do solo.jpg)
+
+![](Fotos PI/sensor umidade do solo.jpg)
 
 5. **Sensor DHT11**
-![alt text](Fotos PI/dht 11.jpg)
+
+![](Fotos PI/dht 11.jpg)
 
 6. **Módulo Bluetooth HC-05**
-![alt text](Fotos PI/hc 05.png)
+
+![](Fotos PI/hc 05.png)
 
 # Design do Projeto <h2>
 <p>
