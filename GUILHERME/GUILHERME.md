@@ -68,6 +68,8 @@ Figura 2
 
 ## Implementação
 
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
+
 <pre>
 
 #include <dht.h>
@@ -75,16 +77,10 @@ Figura 2
 #define pinSensorD 8  //sensor DIGITAL do solo
 #define dht_pin 2     //pino de sinal do DHT-11
 
-//===============================================================================
-
-bool leituraSensor;
-bool leituraAnterior;
-
 dht  my_dht;
 
 float temperatura;
 float umidade;
-//===============================================================================
 
 void setup() 
 {
@@ -96,7 +92,6 @@ void setup()
 
 void loop() 
 {
-//===============================================================================
   {
   my_dht.read11(dht_pin);
   temperatura = my_dht.temperature;
@@ -111,7 +106,7 @@ void loop()
   Serial.print(umidade);
   Serial.println("%");
   Serial.println("");
-//===============================================================================  
+  
   Serial.print("Status do sensor digital: ");
   
   if (digitalRead(pinSensorD)) 
@@ -122,7 +117,7 @@ void loop()
   {
      Serial.println("ÚMIDO");
   }
-//===============================================================================
+
   Serial.print("Status do sensor analógico: ");
   Serial.print(analogRead(pinSensorA)); 
   Serial.println(" ");
@@ -142,7 +137,7 @@ void loop()
     Serial.println("Umidade moderada");
   }
   }
-//===============================================================================  
+
   Serial.print("Atuador: ");
   if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023) 
   {
@@ -157,7 +152,7 @@ void loop()
     Serial.println("AGUARDANDO");
   }
   } 
-//===============================================================================
+
 //Controle do relé
  
   if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
@@ -191,6 +186,7 @@ void loop()
   }         
      
 } 
-//===============================================================================
 
 </pre>
+
+
