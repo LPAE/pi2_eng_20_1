@@ -70,7 +70,7 @@ Figura 2
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
 
-<pre>
+```c++
 
 #include <dht.h>
 #define pinSensorA A0 //sensor ANALÓGICO do solo
@@ -185,7 +185,7 @@ void loop()
   }            
 } 
 
-</pre>
+```
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/serial%20bluetooth%20test.jpg)
 
@@ -193,7 +193,7 @@ void loop()
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/execu%C3%A7%C3%A3o%20final%20sem%20app.jpg)
 
-<pre>
+```c++
 
 #define BLYNK_PRINT Serial
  
@@ -309,3 +309,5 @@ void loop()
   }
   timer.run();
 }
+
+```
