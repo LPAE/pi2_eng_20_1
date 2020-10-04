@@ -66,3 +66,5 @@ Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduin
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/diagrama%20de%20bloco.png)
 Figura 2
 
+## Implementação
+
