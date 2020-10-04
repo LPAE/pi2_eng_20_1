@@ -267,7 +267,7 @@ void molharSolo() //Fará a análise do sensor de umidade do solo e controlará 
   
   Blynk.virtualWrite(V1,analogRead(pinSensorA)); //Mostrará, no monitor LCD do app, os dados do sensor analógico do solo
 
-  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  if (analogRead(pinSensorA) >= 700 && analogRead(pinSensorA) < 1023)
   {
     Blynk.virtualWrite(V0, "Seco");
   }
@@ -277,16 +277,13 @@ void molharSolo() //Fará a análise do sensor de umidade do solo e controlará 
     Blynk.virtualWrite(V0, "Úmido");
   }
 
-   if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 699)
+   if (analogRead(pinSensorA) >= 500 && analogRead(pinSensorA) < 699)
   {
     Blynk.virtualWrite(V0, "Moderado");
   }
 }
 
-  
-//Botão que fará o acionamento manual do relé/válvula pelo usuário do app
-
-  BLYNK_WRITE(V7) 
+  BLYNK_WRITE(V7) //Botão que fará o acionamento manual do relé/válvula pelo usuário do app
 {
     int pinValue = param.asInt();
      
