@@ -171,17 +171,17 @@ void loop()
   Serial.println("");
   delay(5000);
   
-  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 500)
+  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 499)
   {
      Serial.println("O solo se encontra suficientemente úmido");
   } 
   
-  if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 700)
+  if (analogRead(pinSensorA) >= 500 && analogRead(pinSensorA) < 699)
   {
      Serial.println("O solo se encontra razoaveltemente úmido");
   } 
   
-  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  if (analogRead(pinSensorA) >= 700 && analogRead(pinSensorA) < 1023)
   {
      Serial.println("O solo se encontra seco, recomenda-se irrigação");  
   }            
