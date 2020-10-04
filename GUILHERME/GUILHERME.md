@@ -188,3 +188,124 @@ void loop()
 </pre>
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/serial%20bluetooth%20test.jpg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20com%20%C3%A1gua.jpg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/execu%C3%A7%C3%A3o%20final%20sem%20app.jpg)
+
+<pre>
+
+#define BLYNK_PRINT Serial
+ 
+#define pinSensorA A0 //sensor ANALÓGICO do solo
+#define pinSensorD 8  //sensor DIGITAL do solo (não será usado)
+
+#define DHTPIN 2          
+#define DHTTYPE DHT11  
+
+#include <BlynkSimpleSerialBLE.h>
+#include <DHT.h>
+
+#include <SoftwareSerial.h>
+SoftwareSerial SerialBT(10, 11); //TX e RX respectivamente (e não RX e TX como mostrado no sketch exemplo do próprio Blynk)
+
+char auth[] = "lOemBm3KeH63tiZiumYy145WEkcggEs3";
+
+DHT dht(DHTPIN, DHTTYPE);
+BlynkTimer timer;
+
+WidgetLED led1(V10);
+
+void setup()
+{
+  pinMode(pinSensorA, INPUT); //Sensor de umidade do solo
+  pinMode(12, OUTPUT);        //Válvula/relé
+  
+  Serial.begin(9600);
+
+  SerialBT.begin(9600);
+  Blynk.begin(SerialBT, auth);
+
+  Serial.println("Aguardando por conexão...");
+
+  dht.begin();
+
+  timer.setInterval(1000L, enviarSensor);
+  timer.setInterval(1000L, molharSolo);
+}
+
+void enviarSensor() //Fará a análise do DHT 11
+{
+  float u = dht.readHumidity();
+  float t = dht.readTemperature(); 
+
+  if (isnan(u) || isnan(t)) //Se os dados recebidos não forem um número, o sistema gera uma mensagem de erro
+  {
+    Serial.println("Falha ao ler o sensor DHT 11!");
+    return;
+  }
+  
+  Blynk.virtualWrite(V5, u); 
+  Blynk.virtualWrite(V6, t);
+}
+
+void molharSolo() //Fará a análise do sensor de umidade do solo e controlará o relé automaticamente
+{
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+        digitalWrite(12, HIGH);
+        led1.on();   
+        delay(1000);               //pulso de água
+        digitalWrite(12, LOW);
+        delay(5000);               //tempo para o solo absorver a água
+        led1.off();
+  }
+  
+  Blynk.virtualWrite(V1,analogRead(pinSensorA)); //Mostrará, no monitor LCD do app, os dados do sensor analógico do solo
+
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+    Blynk.virtualWrite(V0, "Seco");
+  }
+
+  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 499)
+  {
+    Blynk.virtualWrite(V0, "Úmido");
+  }
+
+   if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 699)
+  {
+    Blynk.virtualWrite(V0, "Moderado");
+  }
+}
+
+  
+//Botão que fará o acionamento manual do relé/válvula pelo usuário do app
+
+  BLYNK_WRITE(V7) 
+{
+    int pinValue = param.asInt();
+     
+  if (pinValue == 1)         
+  {
+    digitalWrite(12, HIGH);
+    led1.on();
+  }
+  else
+  {
+    digitalWrite(12, LOW);
+    led1.off();
+  } 
+} 
+
+void loop()
+{
+  Blynk.run();
+  
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+    Blynk.notify("O solo está seco, recomenda-se irrigação"); //Notificação no celular do usuário 
+    delay(5000);                                              //Tempo para receber uma nova notificação
+  }
+  timer.run();
+}
