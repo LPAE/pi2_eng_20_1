@@ -68,3 +68,129 @@ Figura 2
 
 ## Implementação
 
+<pre>
+
+#include <dht.h>
+#define pinSensorA A0 //sensor ANALÓGICO do solo
+#define pinSensorD 8  //sensor DIGITAL do solo
+#define dht_pin 2     //pino de sinal do DHT-11
+
+//===============================================================================
+
+bool leituraSensor;
+bool leituraAnterior;
+
+dht  my_dht;
+
+float temperatura;
+float umidade;
+//===============================================================================
+
+void setup() 
+{
+  pinMode(pinSensorA, INPUT); //Sensor de umidade do solo
+  pinMode(12, OUTPUT);        //Atuador -> solenóide
+  Serial.begin(9600);
+  Serial.println("Início da análise");
+}
+
+void loop() 
+{
+//===============================================================================
+  {
+  my_dht.read11(dht_pin);
+  temperatura = my_dht.temperature;
+  umidade     = my_dht.humidity;
+  
+  Serial.println(" ");
+  Serial.print("Temperatura atual: ");
+  Serial.print(temperatura);
+  Serial.println("ºC");
+
+  Serial.print("Umidade relativa do ar atual: ");
+  Serial.print(umidade);
+  Serial.println("%");
+  Serial.println("");
+//===============================================================================  
+  Serial.print("Status do sensor digital: ");
+  
+  if (digitalRead(pinSensorD)) 
+  {
+     Serial.println("POUCA UMIDADE");
+  } 
+  if (!digitalRead(pinSensorD)) 
+  {
+     Serial.println("ÚMIDO");
+  }
+//===============================================================================
+  Serial.print("Status do sensor analógico: ");
+  Serial.print(analogRead(pinSensorA)); 
+  Serial.println(" ");
+  
+  {
+  Serial.print("Status geral: ");
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+    Serial.println("Solo seco");
+  }
+  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 500)
+  {
+    Serial.println("Solo úmido");
+  }
+  if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 700)
+  {
+    Serial.println("Umidade moderada");
+  }
+  }
+//===============================================================================  
+  Serial.print("Atuador: ");
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023) 
+  {
+     Serial.println("A VÁLVULA SERÁ LIGADA");
+  } 
+  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 500)  
+  {
+    Serial.println("A VÁLVULA SERÁ DESLIGADA");   
+  }
+  if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 700)
+  {
+    Serial.println("AGUARDANDO");
+  }
+  } 
+//===============================================================================
+//Controle do relé
+ 
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+        delay(5000); //tempo para o solo absorver a água
+    
+        digitalWrite(12, HIGH);   
+        delay(500); //pulso de água
+        digitalWrite(12, LOW);  
+
+        delay(10000); //tempo para fazer uma nova análise         
+      }
+      
+  Serial.println("");
+  delay(5000);
+  
+  if (analogRead(pinSensorA) > 0 && analogRead(pinSensorA) < 500)
+  {
+     Serial.println("O solo se encontra suficientemente úmido");
+  } 
+  
+  if (analogRead(pinSensorA) > 500 && analogRead(pinSensorA) < 700)
+  {
+     Serial.println("O solo se encontra razoaveltemente úmido");
+  } 
+  
+  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  {
+     Serial.println("O solo se encontra seco, recomenda-se irrigação");
+     
+  }         
+     
+} 
+//===============================================================================
+
+</pre>
