@@ -255,7 +255,7 @@ void enviarSensor() //Fará a análise do DHT 11
 
 void molharSolo() //Fará a análise do sensor de umidade do solo e controlará o relé automaticamente
 {
-  if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
+  if (analogRead(pinSensorA) >= 700 && analogRead(pinSensorA) < 1023)
   {
         digitalWrite(12, HIGH);
         led1.on();   
