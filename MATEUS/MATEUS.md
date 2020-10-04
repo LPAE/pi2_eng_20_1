@@ -12,9 +12,3 @@ Antes de tudo foi necessário escolher o microcontrolador para receber os dados 
 
 
 
-![Figura 1](https://github.com/LPAE/pi2_eng_20_1/blob/master/design.png)
-**Figura 1**
-
-![Figura 2](https://github.com/LPAE/pi2_eng_20_1/blob/master/Diagrama%20projeto.png)
-**Figura 2**
-
