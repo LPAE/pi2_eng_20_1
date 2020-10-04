@@ -11,5 +11,9 @@ Antes de tudo foi necessário escolher o microcontrolador para receber os dados 
 ![**Figura 1**](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/1046_1_H.png)
 **Figura 1**
 
+Para efetuar o monitoramento das condições que a planta está exposta  utilizou-se sensores que realizarão a coleta das informações do solo e do ambiente. Sendo assim, para informar as condições do ambiente foi escolhido o sensor DHT11, além disso para recolher os dados do solo foi selecionado o higrômetro. 
+O sensor de temperatura e umidade DHT11 conta com uma saída digital, ainda conta com um sensor resistivo de componentes úmidos. Opera com uma tensão entre 3.3V e 5V DC, sendo que a faixa de medição de umidade é de 20% a 90%, além disso, apresenta uma faixa de medição de temperatura de 0°C a 50°C.
+
+
 
 
