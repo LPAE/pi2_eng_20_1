@@ -189,4 +189,4 @@ void loop()
 
 </pre>
 
-
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/serial%20bluetooth%20test.jpg)
