@@ -6,8 +6,9 @@ Para que as necessidades do usuário sejam atendidas o projeto contará com dois
 
 
 
-# Design 
-Com o intuito de exemplificar o que será feito no projeto e tornar visíves as etapas, foi desenvolvido com o aplicativo fritzing a planta eletrônica do projeto conforme a figura 1. Na sequência foi elaborado o diagrama de blocos com fluxo de informações do projeto conforme a figura 2. A finalidade deste é deixar claro como será o fluxo de dados desde a coleta dos parametros pelos sensores até a irrigação de fato.
+# **Design** 
+Antes de tudo foi necessário escolher o microcontrolador para receber os dados e realizar comandos, para tal função foi optado pelo arduino mega 2560 que fornece duas saídas de tensão uma de 3.3V e outra de 5V DC.
+
 
 
 
