@@ -5,7 +5,6 @@ Instituto Federal de Santa Catarina
 Departamento Acadêmico de Eletrônica
 
 Professores: Fernando Pedro Henrique de Miranda - fernando.miranda@ifsc.edu.br
-
              Luiz Alberto de Azevedo - azevedo@ifsc.edu.br
 
 Aluno: Guilherme da Costa Franco - guilherme3379@gmail.com
