@@ -218,7 +218,7 @@ char auth[] = "lOemBm3KeH63tiZiumYy145WEkcggEs3";
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
-WidgetLED led1(V10);
+WidgetLED led1(V10); //LED de exibição do funcionamento da válvula
 
 void setup()
 {
