@@ -1,12 +1,12 @@
 # Sistema de Irrigação automatizado
 
-# **Concepção do Projeto**
+## **Concepção do Projeto**
 A agricultura 4.0 é um termo derivado da indústria 4.0 que se refere a aplicação de tecnologia de ponta na produção agrícola. Tal tecnologia proporciona inúmeras vantagens ambientais, tais como, menor utilização de água na irrigação ou insumos de adubagem no solo (RIBEIRO, 2018). Para que o pequeno produtor e pessoas que não tem acesso a uma casa com espaço para fazer uma horta existe a possibilidade de plantar especiarias, hortaliças e saladas em potes. Em virtude da necessidade de que o usuário geralmente tem de sair de casa por alguns dias e precisa deixar as plantas sozinhas o projeto atual apresenta a solução de tal forma que a irrigação que é algo que precisa ser feito com certa periodicidade será feita de forma automatizada.
 Para que as necessidades do usuário sejam atendidas o projeto contará com dois sensores, um para informar as condições climáticas e umidade relativa do ar, e o outro para medir a umidade do solo. Ou seja os sensores realizarão a coleta de informações do ambiente e da planta para que sejam enviadas para o microcontrolador que será configurado de tal modo que toda vez que o solo precisar de água será feito o acionamento de uma válvula para que a água chegue na planta. Tais informações coletadas serão disponibilizadas para o usuário na tela do smartphone.
 
 
 
-# **Design** 
+## **Design** 
 Antes de tudo foi necessário escolher o microcontrolador para receber os dados e realizar comandos, para tal função foi optado pelo arduino mega 2560 que fornece duas saídas de tensão uma de 3.3V e outra de 5V DC.
 
 
