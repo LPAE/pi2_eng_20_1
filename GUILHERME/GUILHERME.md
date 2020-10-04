@@ -70,6 +70,10 @@ Figura 2
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
 
+# Anexos
+
+## Código base para exibição no Serial Bluetooth
+
 ```c++
 
 #include <dht.h>
@@ -192,6 +196,8 @@ void loop()
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20com%20%C3%A1gua.jpg)
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/execu%C3%A7%C3%A3o%20final%20sem%20app.jpg)
+
+## Código para exibição e controle no Blynk
 
 ```c++
 
