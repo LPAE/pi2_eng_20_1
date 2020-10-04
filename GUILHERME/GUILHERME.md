@@ -181,10 +181,8 @@ void loop()
   
   if (analogRead(pinSensorA) > 700 && analogRead(pinSensorA) < 1023)
   {
-     Serial.println("O solo se encontra seco, recomenda-se irrigação");
-     
-  }         
-     
+     Serial.println("O solo se encontra seco, recomenda-se irrigação");  
+  }            
 } 
 
 </pre>
