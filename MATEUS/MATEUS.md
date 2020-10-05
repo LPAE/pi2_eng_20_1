@@ -176,6 +176,133 @@ void loop() {
 }
 ```
 
+HC-05 e bluetooth spp
+Para apresentar as informações do serial do arduino foi utilizado o aplicativo bluetooth spp da play store que disponibiliza as informações pareadas via bluetooth na tela do smartphone.
+
+```c++
+// --- Bibliotecas Auxiliares ---
+
+
+
+// ========================================================================================================
+// --- Configurações Iniciais ---
+void setup()
+{
+  Serial.begin(9600);
+
+  
+} //end setup
+
+
+// ========================================================================================================
+// --- Loop Infinito ---
+void loop()
+{
+  Serial.println("Hello World WR Bluetooth");
+
+  delay(741);
+  
+
+  
+} //end loop
+
+
+```
+
+RELÉ
+```c++
+int relay = 2;
+
+void setup() {
+  // Configuración
+  pinMode(relay, OUTPUT); // Configurar relay como salida o OUTPUT
+  Serial.begin(9600); // Abrir el puerto serie a la velocidad de 9600bps para trasnmicion de datos.
+}
+
+void loop() {
+  // Código principal donde ocurren en loop
+  digitalWrite(relay, HIGH); // envia señal alta al relay
+  Serial.println("Relay accionado");
+  delay(1000);           // 1 segundo
+  
+  digitalWrite(relay, LOW);  // envia señal baja al relay
+  Serial.println("Relay no accionado");
+  delay(1000);           // 1 segundo
+
+}
+```
+Após todos os testes realizados constatou-se que todos os módulos estavam em perfeitas condições. Sendo assim foi desenvolvido um programa para integrar todos os componentes.
+```c++
+
+
+//--- Biblioteca auxiliar ---
+#include <dht.h>  //Biblioteca do DHT11
+
+
+//===============================================================
+//--- Mapeamento de hardware ---
+#define dht_pin  24     //pino de sinal digital do dht11 
+#define higro A0
+#define rele 22
+
+//===============================================================
+//--- Declaração de Objetos ---
+dht my_dht;   //Objeto para o sensor
+
+
+
+//===============================================================
+//--- Variáveis Globais ---
+int temperatura = 0x00,   // Armazena a temperatura
+    umidade     = 0x00;   // Armazena a umidade relativa do ar
+
+    
+//===============================================================
+//--- Configurações iniciais ---
+void setup() {
+  Serial.begin(9600);
+  Serial.println("Início do programa");
+  pinMode(higro, INPUT);
+  pinMode(rele, OUTPUT);
+  Serial.println("ATENÇÃO");
+  Serial.println("A umidade do solo varia de 0 a 1024");
+  Serial.println("Quanto mais próximo do zero mais umido o solo está");
+
+}
+//===============================================================
+//--- loop infinito ---
+void loop() {
+  my_dht.read11(dht_pin);
+  temperatura = my_dht.temperature;
+  umidade     = my_dht.humidity;
+1  
+  Serial.print("\tUmidade do solo=\t");
+  Serial.println(analogRead(higro)); 
+  Serial.print("\tTemperatura=\t        ");
+  Serial.print(temperatura);
+  Serial.println("ºC");
+  Serial.print("\tUmidade Relativa do ar=\t");
+  Serial.print(umidade);
+  Serial.println("%");
+ 
+  
+  delay(5000);
+  if (analogRead(higro)> 310)
+  {
+  Serial.println("Solo seco ");
+  Serial.println("Válvula acionada");
+  digitalWrite(rele, HIGH);
+  delay(1000);
+  }
+  else{
+  digitalWrite(rele, LOW);
+  Serial.println("Solo umido"); 
+  Serial.println("Válvula desativada");
+  delay(1000);
+  }
+}
+```
+
 
 
 
