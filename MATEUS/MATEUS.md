@@ -215,7 +215,7 @@ int rele = 2;
 
 void setup() {
   
-  pinMode(rele, OUTPUT); // Configurar rele como saida
+  pinMode(rele, OUTPUT); // Configura rele como saida
   Serial.begin(9600); 
 }
 
