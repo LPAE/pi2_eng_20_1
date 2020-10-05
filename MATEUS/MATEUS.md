@@ -301,6 +301,14 @@ void loop() {
   }
 }
 ```
+***
+## OPERACIONALIZAÇÃO
+
+***
+## DIFCIULDADES
+
+***
+## RESULTADOS
 
 
 
