@@ -29,6 +29,11 @@ O sensor de umidade do solo (higrômetro) trabalha com uma tensão de operação
 
 
 
+Além das coletas de dados o projeto irá disponibilizar as informações para o usuário no smartphone, para tal aplicação o HC-05 módulo bluetooth foi escolhido, pois existe uma fácil comunicação com o microcontrolador arduino. O dispositivo opera com uma tensão de alimentação entre 3V e 5V DC, os pinos rx e tx que são responsáveis pela troca de dados operam com uma tensão de 3.3V.
+[Figura 4]!()
+
+
+
 
 
 
