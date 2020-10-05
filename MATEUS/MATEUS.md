@@ -4,9 +4,7 @@
 A agricultura 4.0 é um termo derivado da indústria 4.0 que se refere a aplicação de tecnologia de ponta na produção agrícola. Tal tecnologia proporciona inúmeras vantagens ambientais, tais como, menor utilização de água na irrigação ou insumos de adubagem no solo (RIBEIRO, 2018). Para que o pequeno produtor e pessoas que não tem acesso a uma casa com espaço para fazer uma horta existe a possibilidade de plantar especiarias, hortaliças e saladas em potes. Em virtude da necessidade de que o usuário geralmente tem de sair de casa por alguns dias e precisa deixar as plantas sozinhas o projeto atual apresenta a solução de tal forma que a irrigação que é algo que precisa ser feito com certa periodicidade será feita de forma automatizada.
 Para que as necessidades do usuário sejam atendidas o projeto contará com dois sensores, um para informar as condições climáticas e umidade relativa do ar, e o outro para medir a umidade do solo. Ou seja os sensores realizarão a coleta de informações do ambiente e da planta para que sejam enviadas para o microcontrolador que será configurado de tal modo que toda vez que o solo precisar de água será feito o acionamento de uma válvula para que a água chegue na planta. Tais informações coletadas serão disponibilizadas para o usuário na tela do smartphone.
 
-_________________________________________________________________________________________________________________________________________________________________________________
-
-
+***
 
 ## DESIGN
 Antes de tudo foi necessário escolher o microcontrolador para receber os dados e realizar comandos, para tal função foi optado pelo arduino mega 2560 que fornece duas saídas de tensão uma de 3.3V e outra de 5V DC.
@@ -88,8 +86,7 @@ A alface foi a planta escolhida para o monitoramento, de acordo com Santos (2015
 **Figura 11 - Planta monitorada**
 
 
-
-_________________________________________________________________________________________________________________________________________________________________________________
+***
 ## IMPLEMENTAÇÃO
 Após definir qual o microcontrolador e quais os sensores serão utilizados e adquiri-los passamos para a fase de testes. Sendo assim foi testado individualmente cada sensor para certificar que o mesmo está em perfeitas condições de funcionamento. Para o teste foi pesquisado códigos ide para arduino. Primeiramente o DHT11:
 
@@ -126,6 +123,61 @@ void loop()
 } //end loop
 ```
 OBS: para poder utilizar esse código foi necessário a biblioteca externa dht.h.
+
+No sensor de temperatura e umidade DHT11 existe a possibilidade de informar a umidade e a temperatura em até duas casas decimais porém deixam a medida muito oscilante. Portanto foi escolhido não informar nenhuma casa decimal apenas o número inteiro.
+
+
+
+Na sequência foi testado o sensor de umidade do solo. Para resultados mais precisos foi utilizado a saída analógica A0 e realizado alguns experimentos para definir quando o solo estará precisando de irrigação. O sensor mede de 0 a 1024, sendo 0 o indíce que aponta a maior umidade.
+
+A tabela a seguir mostra os parametros apresentados pelo higrometro após irrigação, de forma que após molhar o solo foi controlado o tempo e observado quando a planta precisaria  ser irrigada novamente e assim sucessiavamente durante os 5 testes.
+
+DIA | HORA | A0  
+---|---|---
+22/09/2020 | 16:40 | 166
+23/09/2020 | 16:40 | 310
+23/09/2020 | 16:40 | 159
+24/09/2020 | 16:40 | 312
+24/09/2020 | 16:40 | 178
+25/09/2020 | 16:40 | 320
+25/09/2020 | 16:40 | 160
+26/09/2020 | 16:40 | 300
+26/09/2020 | 16:40 | 165
+27/09/2020 | 16:40 | 299
+
+```c++
+#define pinSensorA A0
+#define pinSensorD 8
+
+void setup() {
+  pinMode(pinSensorD, INPUT);
+  pinMode(pinSensorA, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.print("Digital:");
+  
+  if (digitalRead(pinSensorD)) {
+     Serial.print("SEM UMIDADE ");
+  } else {
+     Serial.print("COM UMIDADE ");
+  }
+
+  Serial.print("  Analogico:");
+  Serial.print(analogRead(pinSensorA)); 
+  Serial.print("  ");
+
+  Serial.print("  Atuador:");
+  if (analogRead(pinSensorA) > 700) {
+     Serial.println("SOLENOIDE LIGADO");
+     //digitalWrite(pinSolenoide, HIGH);
+  } else {
+    Serial.println("SOLENOIDE DESLIGADO");
+     //digitalWrite(pinSolenoide, LOW);
+  }
+}
+```
 
 
 
