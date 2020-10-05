@@ -80,7 +80,7 @@ Bem como para exemplificar as conexões dos sensores no arduino foi desenvolvido
 
 
 
-A alface foi a planta escolhida para o monitoramento, de acordo com Santos (2015)  essa verdura necessita de bastante incidência de sol e irrigação abundante.
+A alface foi a planta escolhida para o monitoramento, de acordo com  Wien (1997), a média de temperatura onde a alface se desenvolve bem é de 18ºC, ponderando uma faixa entre 7ºC e 24ºC, tais valores de temperatura devem estar em conjunto com umidade relativa do ar entre 60 e 70%.
 ![Figura 11]()
 
 **Figura 11 - Planta monitorada**
