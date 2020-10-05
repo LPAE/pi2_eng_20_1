@@ -145,36 +145,33 @@ DIA | HORA | A0
 26/09/2020 | 16:40 | 165
 27/09/2020 | 16:40 | 299
 
+
+Fazendo a media das medidas encontradas têm-se: media = (310 + 312 + 320 + 300 + 299)/5
+
+media = 308,2. 
+
+Arredondando definiu-se que toda vez que o sensor captar 310 a válvula será acionada para irrigar o solo.
 ```c++
 #define pinSensorA A0
-#define pinSensorD 8
 
 void setup() {
-  pinMode(pinSensorD, INPUT);
   pinMode(pinSensorA, INPUT);
   Serial.begin(9600);
 }
 
 void loop() {
-  Serial.print("Digital:");
-  
-  if (digitalRead(pinSensorD)) {
-     Serial.print("SEM UMIDADE ");
-  } else {
-     Serial.print("COM UMIDADE ");
-  }
 
   Serial.print("  Analogico:");
   Serial.print(analogRead(pinSensorA)); 
   Serial.print("  ");
 
   Serial.print("  Atuador:");
-  if (analogRead(pinSensorA) > 700) {
+  if (analogRead(pinSensorA) > 310) {
      Serial.println("SOLENOIDE LIGADO");
-     //digitalWrite(pinSolenoide, HIGH);
+   
   } else {
     Serial.println("SOLENOIDE DESLIGADO");
-     //digitalWrite(pinSolenoide, LOW);
+ 
   }
 }
 ```
