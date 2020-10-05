@@ -91,7 +91,7 @@ ________________________________________________________________________________
 ## IMPLEMENTAÇÃO
 Após definir qual o microcontrolador e quais os sensores serão utilizados e adquiri-los passamos para a fase de testes. Sendo assim foi testado individualmente cada sensor para certificar que o mesmo está em perfeitas condições de funcionamento. Para o teste foi pesquisado códigos ide para arduino. Primeiramente o DHT11:
 para poder utilizar esse código foi necessário a biblioteca externa dht.h.
-```
+```c++
 // --- Biblioteca Auxiliar ---
 #include <dht.h>   //biblioteca do sensor de umidade e temperatura
 // ===============================================================================
