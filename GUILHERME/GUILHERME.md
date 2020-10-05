@@ -34,6 +34,7 @@ _________________________________________________________________________
 <p>
   A placa Arduino Mega 2560 é mais uma placa da plataforma Arduino que possui recursos bem interessantes para prototipagem e projetos mais elaborados. Baseada no microcontrolador ATmega2560, possui 54 pinos de entradas e saídas digitais onde 15 destes podem ser utilizados como saídas PWM. Possui 16 entradas analógicas, 4 portas de comunicação serial
 </p>
+
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/arduino%20mega.png)
 
 2. **Válvula Solenóide de 12V NC**
