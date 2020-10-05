@@ -297,8 +297,8 @@ void molharSolo() //Fará a análise do sensor de umidade do solo e controlará 
         led1.on();   
         delay(1000);               //pulso de água
         digitalWrite(12, LOW);
-        delay(5000);               //tempo para o solo absorver a água
         led1.off();
+        delay(5000);               //tempo para o solo absorver a água   
   }
   
   Blynk.virtualWrite(V1,analogRead(pinSensorA)); //Mostrará, no monitor LCD do app, os dados do sensor analógico do solo
