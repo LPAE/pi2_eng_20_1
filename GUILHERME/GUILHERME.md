@@ -95,8 +95,10 @@ Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduin
 # Implementação
 
 <p>
-            
+   Nesta etapa de desenvolvimento do projeto, foi implementado o algoritmo para a leitura e tratamento dos sensores, bem como a sua exibição no painel serial do Arduino, sendo escrito inteiramente em linguagem C++.         
 </p>
+
+A imagem abaixo retrata os primeiros testes do projeto.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
 
@@ -218,13 +220,12 @@ void loop()
 } 
 
 ```
-<p>
-  A imagem a seguir ilustra o funcionamento do código acima utilizando o aplicativo Serial Bluetooth.
-</p>
+
+A imagem a seguir ilustra o funcionamento do código acima utilizando o aplicativo Serial Bluetooth.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/serial%20bluetooth%20test.jpg)
 
-A próximas imagens ilustram os primeiros testes com o sistema completo e com água.
+As próximas imagens ilustram os primeiros testes com o sistema completo e com água.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20com%20%C3%A1gua.jpg)
 
