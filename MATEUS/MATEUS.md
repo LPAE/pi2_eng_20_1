@@ -71,7 +71,7 @@ Quando o relé permitir a passagem de corrente a válvula é acionada
 Para exemplificar todo o processo apresentado acima tem-se o diagrama de blocos a seguir: 
 ![Figura 9]()
 
-**Figura 9 - Diagram de blocos**
+**Figura 9 - Diagrama de blocos**
 
 
 
