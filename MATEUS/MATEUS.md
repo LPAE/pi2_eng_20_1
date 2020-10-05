@@ -211,22 +211,21 @@ void loop()
 
 RELÉ
 ```c++
-int relay = 2;
+int rele = 2;
 
 void setup() {
-  // Configuración
-  pinMode(relay, OUTPUT); // Configurar relay como salida o OUTPUT
-  Serial.begin(9600); // Abrir el puerto serie a la velocidad de 9600bps para trasnmicion de datos.
+  
+  pinMode(rele, OUTPUT); // Configurar rele como saida
+  Serial.begin(9600); 
 }
 
 void loop() {
-  // Código principal donde ocurren en loop
-  digitalWrite(relay, HIGH); // envia señal alta al relay
-  Serial.println("Relay accionado");
+  digitalWrite(rele, HIGH); // envia sinal alto para rele
+  Serial.println("Rele acionado");
   delay(1000);           // 1 segundo
   
-  digitalWrite(relay, LOW);  // envia señal baja al relay
-  Serial.println("Relay no accionado");
+  digitalWrite(rele, LOW);  // envia sinal baixo para rele
+  Serial.println("Rele desativado");
   delay(1000);           // 1 segundo
 
 }
