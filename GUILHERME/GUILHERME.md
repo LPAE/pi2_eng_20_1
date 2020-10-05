@@ -56,13 +56,25 @@ _________________________________________________________________________
 
 4. **Sensor de umidade do solo higrômetro**
 
+<p>
+            Sensor que fará a leitura da umidade do solo do corpo de prova.
+</p>
+
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/sensor%20umidade%20do%20solo.jpg)
 
 5. **Sensor DHT11**
 
+<p>
+            Sensor que fará a leitura da umidade relativa do ar e da temperatura no ambiente em que se encontra o projeto.
+</p>
+
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/dht%2011.jpg)
 
 6. **Módulo Bluetooth HC-05**
+
+<p>
+            Este componente será responsável por receber as informações, colhidas pelos sensores e armazenadas pelo Arduino MEGA, e enviá-las ao usuário mediante uso de aplicativos que façam esse tipo de conexão entre o módulo e o celular a fim de exibir, sem o uso de computadores ou notebooks, todos os dados analisados.
+</p>            
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/hc%2005.png)
 
