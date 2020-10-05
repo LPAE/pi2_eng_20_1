@@ -4,10 +4,12 @@ Instituto Federal de Santa Catarina
 
 Departamento Acadêmico de Eletrônica
 
-Professores: Fernando Pedro Henrique de Miranda - fernando.miranda@ifsc.edu.br
-            e Luiz Alberto de Azevedo - azevedo@ifsc.edu.br
+Professores: 
+* Fernando Miranda - <fernando.miranda@ifsc.edu.br>
+* Luís Azevedo - <azevedo@ifsc.edu.br>
 
-Aluno: Guilherme da Costa Franco - guilherme3379@gmail.com
+Aluno: 
+* Guilherme da Costa Franco - guilherme3379@gmail.com
   
 _________________________________________________________________________  
 
@@ -94,6 +96,7 @@ Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduin
 
 <p>
             
+</p>
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
 
@@ -366,12 +369,24 @@ void loop()
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/notifica%C3%A7%C3%A3o.jpg)
 
+<p>
+            A seguir, há um código QR que permitirá a clonagem do projeto desenvolvido para que possa ser reproduzido em qualquer outro aparelho.
+</p>
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/clonagem%20do%20projeto.jpg)
 
 # Dificuldades
 
+<p>
+      Em um primeiro momento, começar a programar o Arduino foi uma tarefa bem estressante visto que nunca tive contato com esse tipo de tecnologia antes. Seguindo a tutoriais na internet, consegui remediar minha falta de experiência e contornei uma série de problemas, tais como o serial configurado com o BAUD equivocado, a biblioteca do DHT 11 não funcionando propriamente (o que me levou a testar três tipos de bibliotecas), o reservatório de água utilizado não ter pressão o suficiente para conduzir a coluna d'água até a válvula, erros na liguagem de programação (pois houve um momento em que os dados dos sensores não eram atualizados devido uma função escrita equivocadamente) e um comportamento instável do módulo bluetooth HC-05 (que apresentava uma série de problemas de conectividade com o aplicativo desenvolvido no Blynk).
+      No que tangencia o módulo bluetooth, vale acrescentar que, para fosse feita a conexão com o celular, foi necessária a substituição das portas RX e TX do componente que, inicialmente, encontravam-se respectivamente nas portas 1 e 0 do Arduino MEGA. Nesta configuração, o módulo não era reconhecido pelo aplicativo visto que os pinos 0 e 1 são usados para o UART de programação integrada. Desta forma, recomenda-se evitar usá-los se for utilizado o Blynk (na aplicação Serial Bluetooth, não foi detectado instabilidade em nenhum dos pinos testados). Com isso, foi feito o uso do SoftwareSerial em pinos alternativos (11 e 10) e, assim, o módulo funcionou como esperado.        
+</p>
+
 # Melhorias
+
+<p>
+      No que se refere a melhorias do projeto desenvolvido, eu recomendaria a utilização de sensores mais precisos, como o DHT 21 (que possui uma faixa de operação maior que o DHT 11), o HD-38 (sensor de umidade do solo mais preciso que o utilizado neste projeto), a substituição do módulo bluetooth por um módulo WI-FI (a fim de contornar as limitações da conexão bluetooth), a adição de um sensor de luminosidade (para conferir se a planta está recebendo luz solar o suficiente durante as análises) e a substituição da válvula solenóide por uma bomba d'água ou similar.
+</p>
 
 # Referências Bibliograficas
 
@@ -384,3 +399,5 @@ https://www.filipeflop.com/blog/monitore-sua-planta-usando-arduino/ - Código ut
 https://www.robocore.net/tutoriais/configurando-bluetooth-hc-05-via-arduino 
 
 https://create.arduino.cc/projecthub/officine/monitor-and-control-your-irrigation-system-with-a-mobile-app-0607bf
+
+https://community.blynk.cc/t/login-timeout-with-blutooth-module/19306/2
