@@ -23,7 +23,9 @@ O sensor de temperatura e umidade DHT11 conta com uma saída digital, ainda cont
 
 
 O sensor de umidade do solo (higrômetro) trabalha com uma tensão de operação entre 3.3V e 5V DC. Para coletar os dados do solo existem duas possibilidades, uma com operação analógica e outra digital.
-![Figura 3] ()
+![Figura 3](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/9SS19-1.jpg)
+
+**Figura 3 - Sensor de umidade do solo (Higrometro)**
 
 
 
