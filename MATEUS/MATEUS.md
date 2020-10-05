@@ -305,7 +305,7 @@ void loop() {
 ## OPERACIONALIZAÇÃO
 
 ***
-## DIFCIULDADES
+## DIFICULDADES
 
 ***
 ## RESULTADOS
