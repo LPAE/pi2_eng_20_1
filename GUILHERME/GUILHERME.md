@@ -315,9 +315,29 @@ void loop()
 ```
 ## Resultados 
 
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/layout%201.jpg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/layout%202.jpg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/acionamento%20manual.jpg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/notifica%C3%A7%C3%A3o.jpg)
+
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/clonagem%20do%20projeto.jpg)
+
 # Dificuldades
 
 # Melhorias
 
 # Referências Bibliograficas
 
+https://examples.blynk.cc/?board=Arduino%20Mega%202560&shield=HC05%20or%20HC06&example=More%2FDHT11 - Exemplo para implementação do sensor DHT 11 e do módulo bluetooth HC-05 usando o Blynk;
+
+https://www.hackster.io/shibinkp202/relay-control-using-nodemcu-through-blynk-app-b3750c - Comando para controlar o relé utilizando o Blynk
+
+https://www.filipeflop.com/blog/monitore-sua-planta-usando-arduino/ - Código utilizado como referência para implementação do projeto
+
+https://www.robocore.net/tutoriais/configurando-bluetooth-hc-05-via-arduino 
+
+https://create.arduino.cc/projecthub/officine/monitor-and-control-your-irrigation-system-with-a-mobile-app-0607bf
