@@ -107,7 +107,7 @@ int    temperatura = 0x00,   //armazena a temperatura em inteiro
 // --- Configurações Iniciais ---
 void setup() 
 {
-   Serial.begin(9600);   //velocida de leitura do serial
+   Serial.begin(9600);   //velocidade de leitura do serial
 } //end setup
 // ===============================================================================
 // --- Loop Infinito ---
@@ -175,6 +175,8 @@ void loop() {
   }
 }
 ```
+
+
 
 
 
