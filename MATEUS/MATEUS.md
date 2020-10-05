@@ -90,8 +90,39 @@ A alface foi a planta escolhida para o monitoramento, de acordo com Santos (2015
 _________________________________________________________________________________________________________________________________________________________________________________
 ## IMPLEMENTAÇÃO
 Após definir qual o microcontrolador e quais os sensores serão utilizados e adquiri-los passamos para a fase de testes. Sendo assim foi testado individualmente cada sensor para certificar que o mesmo está em perfeitas condições de funcionamento. Para o teste foi pesquisado códigos ide para arduino. Primeiramente o DHT11:
-Para poder utilizar esse código foi necessário a biblioteca externa dht.h.
-
+para poder utilizar esse código foi necessário a biblioteca externa dht.h.
+```
+// --- Biblioteca Auxiliar ---
+#include <dht.h>   //biblioteca do sensor de umidade e temperatura
+// ===============================================================================
+// --- Mapeamento de Hardware ---
+#define    dht_pin    5   //pino de sinal do dht11 ligado no digital 5
+// ===============================================================================
+// --- Declaração de Objetos ---
+dht   my_dht;   //objeto para o sensor
+// ===============================================================================
+// --- Variáveis Globais ---
+int    temperatura = 0x00,   //armazena a temperatura em inteiro
+       umidade     = 0x00;   //armazena a umidade em inteiro
+// ===============================================================================
+// --- Configurações Iniciais ---
+void setup() 
+{
+   Serial.begin(9600);   //velocida de leitura do serial
+} //end setup
+// ===============================================================================
+// --- Loop Infinito ---
+void loop() 
+{
+   my_dht.read11(dht_pin);
+   temperatura = my_dht.temperature; // le a temperatura do sensor
+   umidade     = my_dht.humidity;   // le a umidade do sensor
+   Serial.print(temperatura);      //  apresenta na tela serial a temperatura
+   Serial.print(" ");
+   Serial.println(umidade);      // apresenta na tela serial a umidade
+   delay(1000);                 // delay de 1s para refazer a leitura
+} //end loop
+```
 
 
 
