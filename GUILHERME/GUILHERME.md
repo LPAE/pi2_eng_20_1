@@ -80,18 +80,20 @@ _________________________________________________________________________
 
 # Design do Projeto <h2>
 <p>
-  Afim de facilitar a compreensão do funcionamento do projeto, antes de partir para experimentações práticas, foram realizadas a construção de uma Planta Eletrônica, explicitada pela Figura 1, e a elaboração de um diagrama de blocos, Figura 2, para tanto criar uma visão espacial do projeto, quanto para deixar evidente e inteligível todas as etapas de processos e funções dos componentes envolvidos.
+  Afim de facilitar a compreensão do funcionamento do projeto, antes de partir para experimentações práticas, foram realizadas a construção de uma Planta Eletrônica e a elaboração de um diagrama de blocos para tanto criar uma visão espacial do projeto, quanto para deixar evidente e inteligível todas as etapas de processos e funções dos componentes envolvidos.
 </p>
   
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/projeto%20fritzing.png)
-Figura 1
+
 
 Obs: as pilhas estão representando fontes de 9V, para a alimentação do Arduino, e de 12V, para a alimentação da válvula solenóide, devido a ausência destes componentes na biblioteca do Fritzing.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/diagrama%20de%20bloco.png)
-Figura 2
 
 # Implementação
+
+<p>
+            
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20iniciais.jpg)
 
@@ -338,6 +340,23 @@ void loop()
 
 ```
 ## Resultados 
+
+<p>
+            Com a portabilidade para o Blynk pronta, foi iniciado a etapa de desenvolvimento do layout do aplicativo. A fim de exibir as informações analisadas pelos sensores da forma mais simples e compreensível possível, foram utilizados:
+
+* Painel LCD: para exibir o status atual do solo (que é dividido em seco, moderado e úmido) e o quanto ele está úmido (representado por valores de 0 a 1023);
+
+* Gráfico em linhas: utilizado para acompanhar, ao longo do tempo, a temperatura, a umidade relativa do ar e a umidade do solo. Sendo possível traçar dados de até um ano de análises;
+
+* Monitores de valores numéricos: responsáveis por exibir os valores de temperatura e umidade relativa do ar do ambiente em que se encontra o projeto;
+
+* LED: indicativo visual do funcionamento da válvula tanto no seu modo automático, quanto no manual;
+
+* Botão: fará o acionamento manual da válvula;
+
+* Bluetooth: botão que permitirá o usuário conectar-se com o módulo HC-05;
+
+* Notificação: extensão que notificará o usuário quando o solo estiver severamente seco.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/layout%201.jpg)
 
