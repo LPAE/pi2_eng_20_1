@@ -218,8 +218,13 @@ void loop()
 } 
 
 ```
+<p>
+  A imagem a seguir ilustra o funcionamento do código acima utilizando o aplicativo Serial Bluetooth.
+</p>
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/serial%20bluetooth%20test.jpg)
+
+A próximas imagens ilustram os primeiros testes com o sistema completo e com água.
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/testes%20com%20%C3%A1gua.jpg)
 
