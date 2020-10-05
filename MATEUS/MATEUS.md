@@ -48,7 +48,7 @@ O relé trabalha na região de 5V de tensão de alimentação e tem uma saída d
 
 
 
-![Figura 6]()
+![Figura 6](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/valv%20s.png)
 
 **Figura 6 - Válvula Solenóide** 
 
@@ -69,14 +69,14 @@ Quando o relé permitir a passagem de corrente a válvula é acionada
 
 
 Para exemplificar todo o processo apresentado acima tem-se o diagrama de blocos a seguir: 
-![Figura 9]()
+![Figura 9](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/Diagrama%20projeto%20(1).png)
 
 **Figura 9 - Diagrama de blocos**
 
 
 
 Bem como para exemplificar as conexões dos sensores no arduino foi desenvolvido a planta eletrônica:
-![Figura 10]()
+![Figura 10](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/Planta%20img.png)
 
 **Figura 10 - Planta eletrônica (FRITZING)**
 
