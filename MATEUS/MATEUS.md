@@ -16,6 +16,8 @@ Antes de tudo foi necessário escolher o microcontrolador para receber os dados 
 
 
 
+
+
 Para efetuar o monitoramento das condições que a planta está exposta  utilizou-se sensores que realizarão a coleta das informações do solo e do ambiente. Sendo assim, para informar as condições do ambiente foi escolhido o sensor DHT11, além disso para recolher os dados do solo foi selecionado o higrômetro. 
 O sensor de temperatura e umidade DHT11 conta com uma saída digital, ainda conta com um sensor resistivo de componentes úmidos. Opera com uma tensão entre 3.3V e 5V DC, sendo que a faixa de medição de umidade é de 20% a 90%, além disso, apresenta uma faixa de medição de temperatura de 0°C a 50°C.
 ![Figura 2](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/DHT11-Digital-Relative-Humidity-Temperature-Sensor-Module-ROBU.IN_-2.jpg)
@@ -90,7 +92,7 @@ A alface foi a planta escolhida para o monitoramento, de acordo com Santos (2015
 _________________________________________________________________________________________________________________________________________________________________________________
 ## IMPLEMENTAÇÃO
 Após definir qual o microcontrolador e quais os sensores serão utilizados e adquiri-los passamos para a fase de testes. Sendo assim foi testado individualmente cada sensor para certificar que o mesmo está em perfeitas condições de funcionamento. Para o teste foi pesquisado códigos ide para arduino. Primeiramente o DHT11:
-para poder utilizar esse código foi necessário a biblioteca externa dht.h.
+
 ```c++
 // --- Biblioteca Auxiliar ---
 #include <dht.h>   //biblioteca do sensor de umidade e temperatura
@@ -123,7 +125,7 @@ void loop()
    delay(1000);                 // delay de 1s para refazer a leitura
 } //end loop
 ```
-
+OBS: para poder utilizar esse código foi necessário a biblioteca externa dht.h.
 
 
 
