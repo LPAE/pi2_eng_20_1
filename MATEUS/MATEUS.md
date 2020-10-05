@@ -42,7 +42,7 @@ Além das coletas de dados o projeto irá disponibilizar as informações para o
 
 Após a coleta de dados o arduino será programado para armazená-los e analisar se a planta precisa de irrigação, de tal modo, que se o solo estiver seco o arduino ativará o relé que liberará a válvula solenóide para o fluxo de água chegar na planta.
 O relé trabalha na região de 5V de tensão de alimentação e tem uma saída digital.
-![Figura 5](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/RELE%205V.jpg)
+![Figura 5](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/rele%205v%20dc.png)
 
 **Figura 5 - Relé**
 
