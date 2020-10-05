@@ -379,7 +379,10 @@ void loop()
 
 <p>
       Em um primeiro momento, começar a programar o Arduino foi uma tarefa bem estressante visto que nunca tive contato com esse tipo de tecnologia antes. Seguindo a tutoriais na internet, consegui remediar minha falta de experiência e contornei uma série de problemas, tais como o serial configurado com o BAUD equivocado, a biblioteca do DHT 11 não funcionando propriamente (o que me levou a testar três tipos de bibliotecas), o reservatório de água utilizado não ter pressão o suficiente para conduzir a coluna d'água até a válvula, erros na liguagem de programação (pois houve um momento em que os dados dos sensores não eram atualizados devido uma função escrita equivocadamente) e um comportamento instável do módulo bluetooth HC-05 (que apresentava uma série de problemas de conectividade com o aplicativo desenvolvido no Blynk).
-      No que tangencia o módulo bluetooth, vale acrescentar que, para fosse feita a conexão com o celular, foi necessária a substituição das portas RX e TX do componente que, inicialmente, encontravam-se respectivamente nas portas 1 e 0 do Arduino MEGA. Nesta configuração, o módulo não era reconhecido pelo aplicativo visto que os pinos 0 e 1 são usados para o UART de programação integrada. Desta forma, recomenda-se evitar usá-los se for utilizado o Blynk (na aplicação Serial Bluetooth, não foi detectado instabilidade em nenhum dos pinos testados). Com isso, foi feito o uso do SoftwareSerial em pinos alternativos (11 e 10) e, assim, o módulo funcionou como esperado.        
+</p>
+
+<p>
+    No que tangencia o módulo bluetooth, vale acrescentar que, para fosse feita a conexão com o celular, foi necessária a substituição das portas RX e TX do componente que, inicialmente, encontravam-se respectivamente nas portas 1 e 0 do Arduino MEGA. Nesta configuração, o módulo não era reconhecido pelo aplicativo visto que os pinos 0 e 1 são usados para o UART de programação integrada. Desta forma, recomenda-se evitar usá-los se for utilizado o Blynk (na aplicação Serial Bluetooth, não foi detectado instabilidade em nenhum dos pinos testados). Com isso, foi feito o uso do SoftwareSerial em pinos alternativos (11 e 10) e, assim, o módulo funcionou como esperado.        
 </p>
 
 # Melhorias
