@@ -306,7 +306,7 @@ void loop() {
 
 ***
 ## DIFICULDADES
-Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  [numº]. Outro desafio foi onde deixar o protótipo, foi aoptado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
+Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  [numº]. Outro desafio foi onde deixar o protótipo, foi optado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
 ***
 ## RESULTADOS
 ***
