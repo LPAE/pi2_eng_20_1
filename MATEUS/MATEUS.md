@@ -1,3 +1,16 @@
+# Projeto Integrador II - 2020/1
+
+Instituto Federal de Santa Catarina
+
+Departamento Acadêmico de Eletrônica
+
+Professores: 
+* Fernando Miranda - <fernando.miranda@ifsc.edu.br>
+* Luís Azevedo - <azevedo@ifsc.edu.br>
+
+Aluno: 
+* Mateus Fontana Tatim - mateus.f02@aluno.ifsc.edu.br
+***
 # Sistema de Irrigação automatizado
 
 ## **Concepção do Projeto**
