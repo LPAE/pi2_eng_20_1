@@ -95,7 +95,7 @@ Bem como para exemplificar as conexões dos sensores no arduino foi desenvolvido
 
 
 A alface foi a planta escolhida para o monitoramento, de acordo com  Wien (1997), a média de temperatura onde a alface se desenvolve bem é de 18ºC, ponderando uma faixa entre 7ºC e 24ºC, tais valores de temperatura devem estar em conjunto com umidade relativa do ar entre 60 e 70%.
-![Figura 11]()
+![Figura 11](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/WhatsApp%20Image%202020-10-06%20at%2017.28.48.jpeg)
 
 **Figura 11 - Planta monitorada**
 
