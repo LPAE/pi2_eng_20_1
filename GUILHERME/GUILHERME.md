@@ -383,7 +383,7 @@ void loop()
 
 # Vídeo de apresentação do Projeto
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)]https://www.youtube.com/watch?v=B_EZamjoMHs&ab_channel=GuilhermedaCosta)
+[![Watch the video](https://github.com/LPAE/pi2_eng_20_1/blob/master/GUILHERME/Fotos%20PI/tumb%20video.png)]https://www.youtube.com/watch?v=B_EZamjoMHs&ab_channel=GuilhermedaCosta)
 
 # Dificuldades
 
