@@ -383,7 +383,7 @@ void loop()
 
 # Vídeo de apresentação do Projeto
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)]https://www.youtube.com/watch?v=B_EZamjoMHs&ab_channel=GuilhermedaCosta)
 
 # Dificuldades
 
