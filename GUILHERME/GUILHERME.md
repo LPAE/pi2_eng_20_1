@@ -398,7 +398,7 @@ void loop()
 # Melhorias
 
 <p>
-      No que se refere a melhorias do projeto desenvolvido, eu recomendaria a utilização de sensores mais precisos, como o DHT 21 (que possui uma faixa de operação maior que o DHT 11), o HD-38 (sensor de umidade do solo mais preciso que o utilizado neste projeto), a substituição do módulo bluetooth por um módulo WI-FI (a fim de contornar as limitações da conexão bluetooth), a adição de um sensor de luminosidade (para conferir se a planta está recebendo luz solar o suficiente durante as análises) e a substituição da válvula solenóide por uma bomba d'água ou similar.
+      No que se refere a melhorias do projeto desenvolvido, eu recomendaria a utilização de sensores mais precisos, como o DHT 21 (que possui uma faixa de operação maior que o DHT 11), o HD-38 (sensor de umidade do solo mais preciso que o utilizado neste projeto), a substituição do módulo bluetooth por um módulo WI-FI (a fim de contornar as limitações da conexão bluetooth), a adição de um sensor de luminosidade (para conferir se a planta está recebendo luz solar o suficiente durante as análises) e a substituição da válvula solenóide por uma bomba d'água ou similar que conduza a água a um sistema de borrifamento (para que haja um aproveitamento e um racionamento melhor da água).
 </p>
 
 # Referências Bibliograficas
