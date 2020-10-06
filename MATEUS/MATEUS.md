@@ -1,6 +1,6 @@
 # Projeto Integrador II - 2020/1
 
-Instituto Federal de Santa Catarina
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/if.jpg)
 
 Departamento Acadêmico de Eletrônica
 
