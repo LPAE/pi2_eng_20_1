@@ -5,8 +5,8 @@ Instituto Federal de Santa Catarina
 Departamento Acadêmico de Eletrônica
 
 Professores: 
-* Fernando Miranda - <fernando.miranda@ifsc.edu.br>
-* Luís Azevedo - <azevedo@ifsc.edu.br>
+* Fernando Pedro Henrique de Miranda - <fernando.miranda@ifsc.edu.br>
+* Luís Alberto de Azevedo - <azevedo@ifsc.edu.br>
 
 Aluno: 
 * Guilherme da Costa Franco - guilherme3379@gmail.com
@@ -21,7 +21,7 @@ _________________________________________________________________________
             Desta forma, far-se-á necessário, como proposta para o Projeto Integrador II de 2020/1, a elaboração de um sistema de irrigação automatizado, cujo foco do projeto consiste em, a partir de um micro controlador, monitorar constantemente um corpo de prova, fornecer automaticamente água em determinadas ocasiões e disponibilizar ao usuário controle do aparelho e dados específicos via aplicativo para celular.
 </p>
 <p>
-            Neste sistema, sensores ficaram responsáveis pela análise constante do nível de umidade do solo. Em resposta a isto, um micro controlador seria responsável por ligar e desligar válvula para fornecer água o suficiente para corrigir quaisquer irregularidades da planta em análise.
+            Neste sistema, sensores ficarão responsáveis pela análise constante do nível de umidade do solo. Em resposta a isto, um micro controlador seria responsável por ligar e desligar válvula para fornecer água o suficiente para corrigir quaisquer irregularidades da planta em análise.
 </p>
 <p>
             Sendo assim, sempre que o sistema liga ou desliga a válvula, uma mensagem é enviada ao usuário via módulo Bluetooth, atualizando o status dos sensores constatemente, tornando este sistema bastante útil em fazendas, jardins e residências. 
@@ -29,7 +29,7 @@ _________________________________________________________________________
 
 ## Tecnologias a serem empregadas
 <p>
-            O sistema a ser elaborado possui diversos segmentos distintos que serão análisados e interpretados por um microcontrolador e enviados ao usuário. A seguir, serão listados todos os componentes envolvidos para o desenvolvimento do sistema proposto. São eles:
+            O sistema a ser elaborado possui diversos segmentos distintos que serão análisados e interpretados por um microcontrolador e enviados ao usuário via Bluetooth. A seguir, serão listados todos os componentes envolvidos para o desenvolvimento do sistema proposto. São eles:
 </p>
 
 1. **Arduino MEGA 2560**
