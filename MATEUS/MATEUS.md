@@ -306,9 +306,27 @@ void loop() {
 
 ***
 ## DIFICULDADES
-
+Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  [numº]. Outro desafio foi onde deixar o protótipo, foi aoptado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
 ***
 ## RESULTADOS
+***
+## REFERÊNCIAS
+
+
+RIBEIRO, Josiana Gonçalves. Agricultura 4.0: desafios à produção de alimentos e inovações tecnológicas. Sienpro, Goiania, ago. 2018. Disponível em: https://files.cercomp.ufg.br/weby/up/1012/o/AGRICULTURA_4.0_DESAFIOS_%C3%80_PRODU%C3%87%C3%83O_DE_ALIMENTOS_E_INOVA%C3%87%C3%95ES_TECNOL%C3%93GICAS.pdf. Acesso em: 30 set. 2020.
+
+WIEN, H. C. (1997) - Lettuce. In: Wien, H. C. The physiology of vegetable crops. New York: Cab International. 
+
+https://www.filipeflop.com/blog/monitore-sua-planta-usando-arduino/  - Modelo para sistema de irrigação automtizado
+
+https://github.com/tinkerall/Tutorial/blob/master/SM0002_RELAY_5V/SM0002_RELAY_5V.ino - Modelo sketch relé
+
+https://mega.nz/file/7BZSQAxa#2n0IW_PF0O01J-AEzzZ40HnBNPlH-m6ikdirVxkyq38 - Modelo sketch DHT11
+
+https://drive.google.com/file/d/1vcQZvi8-_JP-VcpoAb_dvDwUiRI1b4sI/view - Modelo sketch Higrometro3
+
+
+
 
 
 
