@@ -1,6 +1,6 @@
-Desenvolvimento de sistema de irrigação microcontrolado
+## **Desenvolvimento de sistema de irrigação microcontrolado**
 
-**1 - Concepção do projeto**			
+### **1 - Concepção do projeto**			
 
 Neste projeto será desenvolvido um sistema de irrigação para plantas de pequeno porte (que posteriormente pode ser ampliado e aplicado em diferentes tipos de planta) que utilizará, dentro de um circuito microcontrolado, medições de algumas grandezas como temperatura ambiente e umidade do ambiente e do solo para determinar a abertura da válvula de um compartimento de água. Além do próprio sistema, será desenvolvido um aplicativo compatível com smartphone/tablet para monitoramento do sistema e das condições atuais da planta.
 
@@ -8,9 +8,10 @@ Abaixo temos, já com as especificações dos módulos e equipamentos, como ser�
 
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Diagrama%20de%20blocos.PNG)
 
-**2 - Design do projeto**
+### **2 - Design do projeto**
 
-**Componente por componente**
+
+#### **Componente por componente**
 	
 O sistema de irrigação microcontrolado possui “blocos” específicos para cada medida. 
 Abaixo serão listados todos os componentes do sistema e qual função realizarão dentro do projeto:
@@ -28,7 +29,7 @@ Abaixo serão listados todos os componentes do sistema e qual função realizar�
 **- Módulo HC 05:** Será o módulo Bluetooth responsável por fazer a comunicação entre o sistema de irrigação e um aplicativo de smartphone que irá informar através de uma interface, os dados recolhidos pelos sensores.
 
 
-**Planta Eletrônica do Projeto**
+#### **Planta Eletrônica do Projeto**
 
 A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual evidencia como são feitas as ligações de cada módulo e quais pinos do microcontrolador foram selecionados para transmitir os dados recolhidos pelos sensores.
 
