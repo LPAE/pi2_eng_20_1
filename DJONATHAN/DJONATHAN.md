@@ -38,7 +38,7 @@ A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual e
 
 **Implementação do sistema**
 
-O sistema que executa a abertura da válvula ao necessitar-se de irrigação foi implementado no microcontrolador através do código abaixo:
+O sistema que executa a abertura da válvula ao necessitar-se de irrigação foi implementado no microcontrolador através do código abaixo, que foi construído consultando diversos modos de funcionamento de cada módulo e adaptando-os ao objetivo deste projeto:
 
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Sketch_projeto_irriga%C3%A7%C3%A3o.png)
 
