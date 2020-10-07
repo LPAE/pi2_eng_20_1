@@ -339,6 +339,16 @@ Dia | Umidade do solo | Umidade relativa do ar(%) | Temperatura(ºC)
 06/10/2020 | 150 | 81 | 19
 07/10/2020 | 178 | 85 | 20
 
+As imagens a seguir são referentes ao primeiro dia de operacionalização:
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/WhatsApp%20Image%202020-10-07%20at%2009.42.37%20(2).jpeg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/WhatsApp%20Image%202020-10-07%20at%2009.42.44.jpeg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/WhatsApp%20Image%202020-10-07%20at%2009.42.37%20(1).jpeg)
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/WhatsApp%20Image%202020-10-07%20at%2009.42.37.jpeg)
+
 ***
 ## DIFICULDADES
 Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  11. Outro desafio foi onde deixar o protótipo, foi optado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
