@@ -6,7 +6,7 @@ Departamento Acadêmico de Eletrônica
 
 Professores: 
 * Fernando Miranda - <fernando.miranda@ifsc.edu.br>
-* Luís Azevedo - <azevedo@ifsc.edu.br>
+* Luís Azevedo - <lazevedo@ifsc.edu.br>
 
 Aluno: 
 * Mateus Fontana Tatim - mateus.f02@aluno.ifsc.edu.br
