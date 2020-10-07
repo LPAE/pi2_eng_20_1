@@ -4,6 +4,10 @@ Desenvolvimento de sistema de irrigação microcontrolado
 
 Neste projeto será desenvolvido um sistema de irrigação para plantas de pequeno porte (que posteriormente pode ser ampliado e aplicado em diferentes tipos de planta) que utilizará, dentro de um circuito microcontrolado, medições de algumas grandezas como temperatura ambiente e umidade do ambiente e do solo para determinar a abertura da válvula de um compartimento de água. Além do próprio sistema, será desenvolvido um aplicativo compatível com smartphone/tablet para monitoramento do sistema e das condições atuais da planta.
 
+Abaixo temos, já com as especificações dos módulos e equipamentos, como será conectado e esquematizado o sistema:
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Diagrama%20de%20blocos.PNG)
+
 **2 - Design do projeto**
 
 **Componente por componente**
@@ -13,9 +17,9 @@ Abaixo serão listados todos os componentes do sistema e qual função realizar�
 	
 ​	**- Arduino MEGA 2560 R3:** Placa microcontroladora programável que é responsável por comandar todo o sistema, recebendo e enviando dados para os demais módulos.
 
-​	**- Módulo DHT11:** É um sensor responsável pela medição da temperatura e umidade do ambiente, fatores importantes para determinar a necessidade de irrigação ou não.
+​	**- Módulo DHT11:** É um sensor responsável pela medição da temperatura e umidade do ar, fatores importantes para determinar se o ambiente é propenso a criação da planta a ser cultivada.
 
-**- Sensor de Umidade do Solo Higrômetro:** Responsável por enviar um sinal analógico ao Arduino referente a umidade do solo no qual ele está depositado. 
+**- Sensor de Umidade do Solo Higrômetro:** Responsável por enviar sinais analógicos e digitais ao Arduino correspondentes a umidade do solo no qual ele está inserido. 
 
 **- Módulo Relé 5v de um canal:** Dispositivo eletromecânico que trabalha com a comutação de contatos. Por ter apenas um canal, ele tem apenas dois estados de chaveamento e irá determinar o envio de corrente ou não a válvula solenóide.
 
@@ -23,5 +27,14 @@ Abaixo serão listados todos os componentes do sistema e qual função realizar�
 	
 **- Módulo HC 05:** Será o módulo Bluetooth responsável por fazer a comunicação entre o sistema de irrigação e um aplicativo de smartphone que irá informar através de uma interface, os dados recolhidos pelos sensores.
 
-![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Diagrama%20de%20blocos.PNG)
+
+**Planta Eletrônica do Projeto**
+
+A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual evidencia como são feitas as ligações de cada módulo e quais pinos do microcontrolador foram selecionados para transmitir os dados recolhidos pelos sensores.
+
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Planta%20-%20Sist_irrig_2020_1.PNG)
+
+
+**Implementação do sistema**
+
+
