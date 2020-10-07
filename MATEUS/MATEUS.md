@@ -354,7 +354,7 @@ As imagens a seguir são referentes ao primeiro dia de operacionalização:
 Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  11. Outro desafio foi onde deixar o protótipo, foi optado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
 ***
 ## MELHORIAS
-
+No que se refere as melhorias para futuros projetos sugere-se que use um sensor de temperatura e umidade mais preciso pois o DHT11 tem uma variação muito grande quando comparado a outros como o DHT22. Como ainda uma maior atenção a planta tendo cuidados com adubação para que a mesma se desenvolva mais rapidamente.
 
 ***
 ## REFERÊNCIAS
