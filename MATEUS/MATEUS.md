@@ -324,14 +324,28 @@ Por fim, todos os componentes integrados foram testados.
 
 Informações dos sensores sendo enviadas para o smartphone do usuário:
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/spp.jpeg)
+
+**Figura 13 - APP BLUETOOTH SPP**
 ***
 ## OPERACIONALIZAÇÃO
+A fim de analisar se as necessidades da planta estão sendo atendidas a planta foi monitorada durante cinco dias. As informações de temperatura, umidade do solo e umidade relativa do ar.  Conforme a tabela abaixo:
+
+OBS: as medidas foram analisadas sempre após a planta ser irrigada
+Dia | Umidade do solo | Umidade relativa do ar(%) | Temperatura(ºC)
+---|---|---|---|
+03/10/2020 | 150 | 80 | 18
+04/10/2020 | 166 | 85 | 17
+05/10/2020 | 180 | 88 | 20
+06/10/2020 | 150 | 81 | 19
+07/10/2020 | 178 | 85 | 20
 
 ***
 ## DIFICULDADES
-Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  [numº]. Outro desafio foi onde deixar o protótipo, foi optado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
+Sem dúvida no projeto existiram algumas dificuldades, vale destacar o local para deixar a planta de modo que fosse exposto ao sol e ao mesmo tempo alcançasse a mangueira da irrigação. Para contorná-lo foi adquirido mais mangueiras para que fosse suficientemente comprida para sair da torneira da lavanderia e chegasse na planta. A alface foi colocada do lado de fora da casa perto de uma janela de modo que fosse bem iluminada pelo sol e ao mesmo tempo protegida da chuva conforme a figura  11. Outro desafio foi onde deixar o protótipo, foi optado por deixa-lo dentro de casa na lavanderia perto da janela, entretanto os sensores precisam estar no mesmo ambiente da planta, sendo assim foi adquirido mais fios para que o sensor de umidade e temperatura DHT11 e o sensor de umidade do solo Higrometro alcancem o local da planta.
 ***
-## RESULTADOS
+## MELHORIAS
+
+
 ***
 ## REFERÊNCIAS
 
