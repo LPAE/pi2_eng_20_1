@@ -369,7 +369,7 @@ https://github.com/tinkerall/Tutorial/blob/master/SM0002_RELAY_5V/SM0002_RELAY_5
 
 https://mega.nz/file/7BZSQAxa#2n0IW_PF0O01J-AEzzZ40HnBNPlH-m6ikdirVxkyq38 - Modelo sketch DHT11
 
-https://drive.google.com/file/d/1vcQZvi8-_JP-VcpoAb_dvDwUiRI1b4sI/view - Modelo sketch Higrometro3
+https://drive.google.com/file/d/1vcQZvi8-_JP-VcpoAb_dvDwUiRI1b4sI/view - Modelo sketch Higrometro
 
 
 
