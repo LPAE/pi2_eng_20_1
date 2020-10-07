@@ -38,4 +38,6 @@ A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual e
 
 **Implementação do sistema**
 
+O sistema que executa a abertura da válvula ao necessitar-se de irrigação foi implementado no microcontrolador através do código abaixo:
+
 
