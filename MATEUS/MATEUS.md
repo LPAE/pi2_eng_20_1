@@ -316,6 +316,14 @@ void loop() {
   }
 }
 ```
+
+Por fim, todos os componentes integrados foram testados.
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/impl.jpeg)
+
+**Figura 12 - Protótipo**
+
+Informações dos sensores sendo enviadas para o smartphone do usuário:
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/MATEUS/spp.jpeg)
 ***
 ## OPERACIONALIZAÇÃO
 
