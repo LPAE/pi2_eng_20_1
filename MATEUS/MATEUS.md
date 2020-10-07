@@ -289,7 +289,6 @@ void loop() {
   my_dht.read11(dht_pin);
   temperatura = my_dht.temperature;
   umidade     = my_dht.humidity;
-1  
   Serial.print("\tUmidade do solo=\t");
   Serial.println(analogRead(higro)); 
   Serial.print("\tTemperatura=\t        ");
