@@ -11,7 +11,28 @@ Tecnologias presentes no projeto.
 Neste tópico será detalhado de forma simples quais tencologias foram utilizadas para construção do projeto:
 
 1 - Arduino Mega 2560 R3
-Placa utilizada para programação, parte lógica do projeto. A placa possui 54 entradas/saídas digitais e 16 entradas analógicas mais pinos de TX e RX, SLC 
+Placa utilizada para programação, parte lógica do projeto. A placa possui 54 entradas/saídas digitais e 16 entradas analógicas mais pinos de TX e RX, SCL e SDA.
+Liguagens utilizada C e C++.
+
+2 - Módulo Bluetooth RS232 HC-05
+Placa utilizada para parte fazer de comunicação serial entre o celular android com as informações da porta serial da placa do arduino Mega 2560 R3.
+
+3 - Sensor de umidade do solo
+PLaca utilizada para verificar a umidade do solo. A saída do sensor fica em estado alto quando o solo apresenta seco , e a saída do sensor fica em estado baixo quando o solo está molhado. A corrente do solo passa por este sensor que utiliza duas pontas de prova. A resistência elétrica resultante basea-se a sua leitura. Quanto mais o solo estiver enxarcado , menor é a resistência do mesmo o que facilita a condução entre as pontas de prova. O solo estando seco, a condutividade é baixa.
+
+4 - Sensor de Umidade e Temperatura DHT11
+O DHT11 é um sensor de temperatura e umidade muito utilizado para projetos de arduino, capaz de fazer leituras de temperaturas entre 0 a 50 graus celsius e umidade de 20 a 90%. Neste projeto estas informações são enviadas para uma tela de LCD e um aplicativo.
+
+5 - Módulo Relé 5V 1 canal
+Compatível com arduino. Lâmpadas, motores, eletrodomésticos e outros equipamentos pode ser controlado utilizando apenas um pino de controle do Módulo Relé 5V 1 Canal , isto porque o circuito alimentado pelo reé fica isolado do microcontrolador. Neste projeto a função desta placa é fazer o chaveamento do circuito de ativação da válvulva solenóide.
+
+6 - Válula Solenóide
+Muito utilizada juntamente com microcontroladores para sistema de irrigação ou mesmo para encher caixas d’água, especificações 12V 180° (¾ x ¾). Neste projeto será utilizada para chavear a entrada de água, em conjunto com o relé.
+
+7 - Módulo Serial I2C para Display LCD Arduino
+Este módulo, faz com que você controle um display LCD, não importando se é 16×2 ou 20×4, a vantagem é que é utilizado apenas dois pinos do Arduino (SDA) e o (SCL). Neste projeto foi utilizado a comunicação i2c entre arduino e a placa. Todas as informações do arduino estarão presentes no LCD.
+
+
 
 
 
