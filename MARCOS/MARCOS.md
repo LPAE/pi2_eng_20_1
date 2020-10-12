@@ -1,4 +1,4 @@
-Regador automático de plantas com sistema de reconhecimento de umidade do solo.
+# Regador automático de plantas com sistema de reconhecimento de umidade do solo.
 
 Em meados do século passado uma grande dificuldade em que os agricultores ou até mesmo jardineiros tinham era de saber a quantidade de água o suficiente para regar uma planta. O teste feito por eles era através de tocar o solo e verificar se o mesmo está umido, caso não estivesse seria hora de regar novamente. Porém como controlar a quantidade de água necessária. A frequência de regas variam segundo a espécie, a quantidade de insolação, vento, e a estação do ano.  Algumas plantas podem até morrer por ter seu solo encharcado, isto acontece porque algumas plantas quando são regadas demais não conseguem reverter a absorção de água, e ocasionando a dificuldade da passagem de oxigênio das raizes causando assim a sua morte. Lugares com muito vento precisam uma frequência maior de rega, para deixar as raizes mais fortes.
 
@@ -7,7 +7,8 @@ Para visualizar o nível de umidade vindo da leitura do sensor, será utilizado 
 
 O protótipo também contará com uma válvula solenóide e um relé para chaveamento da mesma. O sensor de umidade será conectado no solo, onde o sistema fará a leitura do mesmo, verificando se haverá necessidade de fazer a irrigação ou não.
 
-Tecnologias presentes no projeto.
+# Tecnologias presentes no projeto.
+
 Neste tópico será detalhado de forma simples quais tencologias foram utilizadas para construção do projeto:
 
 1 - Arduino Mega 2560 R3
@@ -32,9 +33,17 @@ Muito utilizada juntamente com microcontroladores para sistema de irrigação ou
 7 - Módulo Serial I2C para Display LCD Arduino
 Este módulo, faz com que você controle um display LCD, não importando se é 16×2 ou 20×4, a vantagem é que é utilizado apenas dois pinos do Arduino (SDA) e o (SCL). Neste projeto foi utilizado a comunicação i2c entre arduino e a placa. Todas as informações do arduino estarão presentes no LCD.
 
-Design do Projeto
+# Design do Projeto
 
 O Design do projeto serve para se ter uma visão espacial do projeto, se preocupando com o tamanho e ligações das placas envolvidas, afim de otimizar o tempo na hora da montagem de fato e diminuir maiores chances de erro de conexão. Segue abaixo de como ficaram as ligações do projeto proposto.
+
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/design.png)
+
+Diagrama de Blocos
+
+O diagrama de blocos diferente do design mostra como o projeto é subdividido em camadas, afim de melhor entende-lo. Ao invés de o projeto ser todo um bloco só ele é dividido assim como em uma empresa, no qual se divide os setores.
+
 
 
 
