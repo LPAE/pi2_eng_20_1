@@ -32,6 +32,12 @@ Muito utilizada juntamente com microcontroladores para sistema de irrigação ou
 7 - Módulo Serial I2C para Display LCD Arduino
 Este módulo, faz com que você controle um display LCD, não importando se é 16×2 ou 20×4, a vantagem é que é utilizado apenas dois pinos do Arduino (SDA) e o (SCL). Neste projeto foi utilizado a comunicação i2c entre arduino e a placa. Todas as informações do arduino estarão presentes no LCD.
 
+Design do Projeto
+
+O Design do projeto serve para se ter uma visão espacial do projeto, se preocupando com o tamanho e ligações das placas envolvidas, afim de otimizar o tempo na hora da montagem de fato e diminuir maiores chances de erro de conexão. Segue abaixo de como ficaram as ligações do projeto proposto.
+
+
+
 
 
 
