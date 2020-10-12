@@ -38,9 +38,9 @@ Este módulo, faz com que você controle um display LCD, não importando se é 1
 O Design do projeto serve para se ter uma visão espacial do projeto, se preocupando com o tamanho e ligações das placas envolvidas, afim de otimizar o tempo na hora da montagem de fato e diminuir maiores chances de erro de conexão. Segue abaixo de como ficaram as ligações do projeto proposto.
 
 
-![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/design.png)
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/design.jpg)
 
-Diagrama de Blocos
+# Diagrama de Blocos
 
 O diagrama de blocos diferente do design mostra como o projeto é subdividido em camadas, afim de melhor entende-lo. Ao invés de o projeto ser todo um bloco só ele é dividido assim como em uma empresa, no qual se divide os setores.
 
