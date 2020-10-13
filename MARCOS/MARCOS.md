@@ -42,7 +42,30 @@ O Design do projeto serve para se ter uma visão espacial do projeto, se preocup
 
 # Diagrama de Blocos
 
-O diagrama de blocos diferente do design mostra como o projeto é subdividido em camadas, afim de melhor entende-lo. Ao invés de o projeto ser todo um bloco só ele é dividido assim como em uma empresa, no qual se divide os setores.
+O diagrama de blocos diferente do design mostra como o projeto é subdividido, afim de melhor entendê-lo. As divisões são conforme suas especialidades assim como em uma empresa, no qual se divide em setores. Segue abaixo o diagrama de blocos deste projeto.
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/diagrama%20de%20blocos.jpg)
+
+# Fluxograma
+ 
+Como o próprio nome já diz é um tipo de diagrama, ou uma representação esquemática de um processo ou algoritmo. Nele é mostrado a sequência operacional de um algoritmo infomando todas as situações em que o projeto irá se comportar. Abaixo mostra o fluxograma do código implementado neste projeto. 
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/Fluxograma.jpg)
+
+# Algoritmo
+
+O algoritmo nada mais é que um conjunto de códigos que tem a finalidade de resolver um problema , ou realizar uma tarefa. Neste projeto utilizamos o software próprio do arduino. Segue abaixo todo o codigo implementado na linguagem C++.
+
+![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/algoritmo.jpg)
+
+
+# Implementação
+
+Partiremos agora para a parte prática do projeto, onde analisaremos se o protótipo irá se comportar de forma adequada e esperada. 
+
+
+
+
 
 
 
