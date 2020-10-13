@@ -67,7 +67,7 @@ Abaixo Segue a foto do protótipo já pronto, logo mais terá um vídeo explicat
 
 # Resultados
 
-Em meio a pandemia causada pelo coronavirus que estamos passando e pela dificuldade de acesso aos materiais, o projeto teve um resultado satisfatório, isso porque teve o comportamento esperado, sem gerar nenhum tipo de problema. Tentamos nos preocupar com água, por isso foi utilizado um pote de sorvete que é feito de plastico justamente para que caso respingasse água não comprometesse o circuito. Tivemos que deixar a matriz de contato fora, por não caber no nosso "case".O ideal seria fazer uma placa de circuito impresso de fato, para que possamos fazer com que  
+Em meio a pandemia causada pelo coronavirus que estamos passando e pela dificuldade de acesso aos materiais, o projeto teve um resultado satisfatório, isso porque teve o comportamento esperado, sem gerar nenhum tipo de problema. Tentamos nos preocupar com a água, por isso foi utilizado um pote de sorvete que é feito de plastico justamente para que caso respingasse água não comprometesse o circuito. Tivemos que deixar a matriz de contato fora, por não caber no nosso "case". O ideal seria fazer uma placa de circuito impresso de fato, para que possamos eliminar de fato o uso da matriz de contato.   
 
 
 
