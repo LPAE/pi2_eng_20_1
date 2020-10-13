@@ -61,7 +61,9 @@ O algoritmo nada mais é que um conjunto de códigos que tem a finalidade de res
 
 # Implementação
 
-Partiremos agora para a parte prática do projeto, onde analisaremos se o protótipo irá se comportar de forma adequada e esperada. 
+Partiremos agora para a parte prática do projeto, onde analisaremos se o protótipo irá se comportar de forma adequada e esperada. É esperado que o sistema através de um sensor verifique a umidade do solo de uma planta, esta umidade é recebida no valor de 0 até 1024, onde no código é transformada em porcentagem. A porcentagem deverá ser menor ou igual a 45 para que o microcontrolador envie um pulso de 5V para chavear um relé acionando o circuito de 12V em conjunto com a válvula solenóide e assim deixando a água passar. Caso a porcentagem seja maior que 45 agua deverá ser cessada e a planta parará de ser regada. Este projeto também contará com um display LCD que receberá todas as informações do arduino attravés da comunicação i2c, e o microcontrolador também enviará estes mesmos dados para um aplicativo de celular via UART, por comunicação serial. Outro sensor implementado foi um DHT11, sensor de temperatura e umidade do ambiente, o mesmo também enviará dados para o arduino que enviará os dados novamente para um LCD e pela tela do celular como foi mencionado. Estes valores são atualizado a cada 2 segundos. A comunicação feita por bluetooth foi utilizado a placa HC5.
+
+Abaixo Segue a foto do protótipo já pronto, logo mais terá um vídeo explicativo.
 
 
 
