@@ -3,7 +3,7 @@
 Professores: Fernando Pedro Henrique de Miranda
              Luís Alberto de Azevedo
              
-Aluno: Marcos Vinicius Dutea
+Aluno: Marcos Vinicius Dutra
 
 # Regador automático de plantas com sistema de reconhecimento de umidade do solo.
 
