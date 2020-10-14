@@ -36,9 +36,20 @@ A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual e
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Planta%20-%20Sist_irrig_2020_1.PNG)
 
 
-**Implementação do sistema**
+### **3 - Implementação do sistema**
+
+#### **Sistema de Irrigação**
 
 O sistema que executa a abertura da válvula ao necessitar-se de irrigação foi implementado no microcontrolador através do código abaixo, que foi construído consultando diversos modos de funcionamento de cada módulo e adaptando-os ao objetivo deste projeto:
 
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Sketch_projeto_irriga%C3%A7%C3%A3o.png)
+
+#### **Aplicativo Android**
+
+O aplicativo que apresentará uma interface visual para o usuário foi desenvolvido através do MIT App Inventor, um sistema disponível em navegador que é utilizado para criar aplicativos com uma vasta gama de recursos disponíveis que podem realizar diversos tipos de funções. Utilizando-se dos recursos do App Inventor, o aplicativo foi desenvolvido para ter duas etapas: A conexão ao módulo HC-05 e, após tal conexão, a atualização dos dados de leitura. 
+
+**- Layout:** A primeira etapa a ser desenvolvida foi a de criação do layout do aplicativo através da aba “Designer” do sistema. É nesta seção que são inseridos todos os componentes que farão parte do aplicativo, como por exemplo, botões, caixas de texto, o cliente de Bluetooth, etc.
+
+**- Blocos (Programação):** Na aba “Blocks” do App Inventor, é possível realizar a programação de todas as etapas do aplicativo. Para facilitar, o próprio sistema já disponibiliza ações que podem ser efetuadas em relação a cada objeto inserido anteriormente na parte de “Designer”. 
+
 
