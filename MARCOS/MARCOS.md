@@ -1,8 +1,6 @@
 # Projeto Integrador 2 - 2020/01
 
-Professores: Fernando Pedro Henrique de Miranda
-             
-             Luís Alberto de Azevedo
+Professores: Fernando Pedro Henrique de Miranda / Luís Alberto de Azevedo
              
 Aluno: Marcos Vinicius Dutra
 
