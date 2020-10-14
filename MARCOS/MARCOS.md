@@ -74,6 +74,29 @@ Segue o vídeo explicativo
 
 Em meio a pandemia causada pelo coronavirus que estamos passando e pela dificuldade de acesso aos materiais, o projeto teve um resultado satisfatório, isso porque teve o comportamento esperado, sem gerar nenhum tipo de problema. Tentamos nos preocupar com a água, por isso foi utilizado um pote de sorvete que é feito de plastico justamente para que caso respingasse água não comprometesse o circuito. Tivemos que deixar a matriz de contato fora, por não caber no nosso "case". O ideal seria fazer uma placa de circuito impresso de fato, para que possamos eliminar de fato o uso da matriz de contato.   
 
+# Referências Bibliográficas 
+
+https://blog.plantei.com.br/regar-plantas/
+
+https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2017/02/descubra-quantidade-certa-de-rega.html#:~:text=%C3%89%20importante%20garantir%20umidade%20suficiente,isso%20pode%20comprometer%20as%20ra%C3%ADzes.&text=Ao%20regar%2C%20direcione%20a%20%C3%A1gua,e%20n%C3%A3o%20sobre%20as%20folhas.&text=%C3%89%20melhor%20regar%20um%20pouco,passar%20muitos%20dias%20sem%20aguar.
+
+https://www.baudaeletronica.com.br/sensor-de-umidade-do-solo.html
+
+https://www.filipeflop.com/produto/modulo-bluetooth-rs232-hc-05/
+
+https://www.filipeflop.com/produto/sensor-de-umidade-e-temperatura-dht11/?gclid=Cj0KCQjw2or8BRCNARIsAC_ppybwVkXs5ZiEUhFNl6u7dPeYOSwKoDkYo_eBd_gAVDWatr4sVTup1oEaAjpcEALw_wcB
+
+https://www.filipeflop.com/produto/modulo-rele-5v-1-canal/?gclid=Cj0KCQjw2or8BRCNARIsAC_ppyYlQPGqD6MYf1zObWEJcYpGxK3pW0yawLM_5vIk8nl-9GI_n2IN3_EaApMxEALw_wcB
+
+https://www.baudaeletronica.com.br/valvula-solenoide-para-agua-12v-180-x-va-04.html?gclid=Cj0KCQjw2or8BRCNARIsAC_ppybKiPIoLV4ssS4oRcZj3idSxdXN3jutM1xhG1yaFD-rc0oc1w-f-_MaAvZlEALw_wcB 
+
+https://www.youtube.com/watch?v=_xRyePvaMqU 
+
+https://www.filipeflop.com/blog/tutorial-modulo-bluetooth-com-arduino/
+
+https://autocorerobotica.blog.br/conhecendo-o-protocolo-i2c-com-arduino/
+
+
 
 
 
