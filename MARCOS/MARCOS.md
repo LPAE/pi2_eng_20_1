@@ -1,3 +1,10 @@
+#Projeto Integrador 2 - 2020/01
+
+Professores: Fernando Pedro Henrique de Miranda
+             Luís Alberto de Azevedo
+             
+Aluno: Marcos Vinicius Dutea
+
 # Regador automático de plantas com sistema de reconhecimento de umidade do solo.
 
 Em meados do século passado uma grande dificuldade em que os agricultores ou até mesmo jardineiros tinham era de saber a quantidade de água o suficiente para regar uma planta. O teste feito por eles era através de tocar o solo e verificar se o mesmo encontrava-se umido, caso não estivesse seria hora de regar novamente. Porém como controlar a quantidade de água necessária. A frequência de regas variam segundo a espécie, a quantidade de insolação, vento, e a estação do ano.  Algumas plantas podem até morrer por ter seu solo encharcado, isto acontece porque algumas plantas quando são regadas demais não conseguem reverter a absorção de água, e ocasionando a dificuldade da passagem de oxigênio das raizes causando assim a sua morte. Lugares com muito vento precisam uma frequência maior de rega, para deixar as raizes mais fortes.
