@@ -68,7 +68,7 @@ Abaixo Segue a foto do protótipo já pronto, logo mais terá um vídeo explicat
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/Foto%20de%20todo%20o%20projeto.jpeg)
 
 Segue o vídeo explicativo
-![watch the video](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/Video%20Explicativo%20do%20projeto.mp4)
+[![Watch the video](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/Foto%20de%20todo%20o%20projeto.jpeg)](https://github.com/LPAE/pi2_eng_20_1/blob/master/MARCOS/Video%20Explicativo%20do%20projeto.mp4)
 
 # Resultados
 
