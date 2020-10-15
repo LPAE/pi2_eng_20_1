@@ -178,11 +178,8 @@ A imagem a seguir evidencia como é o funcionamento e demonstra o layout de noss
 
 ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/App1.PNG)
 
-```
-
 Na primeira parte temos o início do aplicativo já visto anteriormente, acima da seta temos o módulo HC05 identificado na tela do Smartphone e, após a seta, o aplicativo já funcionando com alguns dados de leitura já obtidos após o clique no botão de "atualizar leitura".
 
-```
 
 ### **Considerações finais e Conclusão do projeto**
 
