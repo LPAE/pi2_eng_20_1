@@ -36,7 +36,8 @@ A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual e
 ![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Planta%20-%20Sist_irrig_2020_1.PNG)
 
 
-### **3 - Implementação do sistema**
+
+
 
 #### **Sistema de Irrigação**
 
@@ -129,9 +130,13 @@ void loop () {
 
 O aplicativo que apresentará uma interface visual para o usuário foi desenvolvido através do MIT App Inventor, um sistema disponível em navegador que é utilizado para criar aplicativos com uma vasta gama de recursos disponíveis que podem realizar diversos tipos de funções. Utilizando-se dos recursos do App Inventor, o aplicativo foi desenvolvido para ter duas etapas: A conexão ao módulo HC-05 e, após tal conexão, a atualização dos dados de leitura. 
 
-**- Layout:** A primeira etapa a ser desenvolvida foi a de criação do layout do aplicativo através da aba “Designer” do sistema. É nesta seção que são inseridos todos os componentes que farão parte do aplicativo, como por exemplo, botões, caixas de texto, o cliente de Bluetooth, etc.
+**- Layout:** A primeira etapa a ser desenvolvida foi a de criação do layout do aplicativo através da aba “Designer” do sistema. É nesta seção que são inseridos todos os componentes que farão parte do aplicativo, como por exemplo, botões, caixas de texto, o cliente de Bluetooth, etc. Abaixo temos o resultado do layout do aplicativo desenvolvido para este projeto e, ao lado, os componentes utilizados para sua confecção:
 
-![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Capturar.png) ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Components.PNG)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Capturar.png) ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Components.png)
+
+```
+
+Legenda:
 
 1 - Título especificando o tipo de conexão a ser realizada;
 
@@ -141,6 +146,13 @@ O aplicativo que apresentará uma interface visual para o usuário foi desenvolv
 
 4 - Botão responsável por atualizar as leituras recebidas.
 
-**- Blocos (Programação):** Na aba “Blocks” do App Inventor, é possível realizar a programação de todas as etapas do aplicativo. Para facilitar, o próprio sistema já disponibiliza ações que podem ser efetuadas em relação a cada objeto inserido anteriormente na parte de “Designer”. 
+```
+
+**- Blocos (Programação):** Na aba “Blocks” do App Inventor, é possível realizar a programação de todas as etapas do aplicativo. Para facilitar, o próprio sistema já disponibiliza ações que podem ser efetuadas em relação a cada objeto inserido anteriormente na parte de “Designer”. Abaixo temos o código em blocos montado para satisfazer nosso problema:
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Blocks.png)
+
+### **4 - Operacionalização do sistema**
+
 
 
