@@ -1,5 +1,10 @@
 ## **Desenvolvimento de sistema de irrigação microcontrolado**
-
+```
+Instituto Federal de Santa Catarina - Campus Florianópolis
+Bacharelado em Engenharia Eletrônica - Projeto Integrador II - Semestre 2020.1
+Professores: Luiz Azevedo & Fernando Miranda
+Aluno: Djonathan Hinckel Machado
+```
 ### **1 - Concepção do projeto**			
 
 Neste projeto será desenvolvido um sistema de irrigação para plantas de pequeno porte (que posteriormente pode ser ampliado e aplicado em diferentes tipos de planta) que utilizará, dentro de um circuito microcontrolado, medições de algumas grandezas como temperatura ambiente e umidade do ambiente e do solo para determinar a abertura da válvula de um compartimento de água. Além do próprio sistema, será desenvolvido um aplicativo compatível com smartphone/tablet para monitoramento do sistema e das condições atuais da planta.
@@ -154,5 +159,42 @@ Legenda:
 
 ### **4 - Operacionalização do sistema**
 
+#### **Sistema de Irrigação**
 
+As imagens abaixo evidenciam como foi feita a montagem do sistema, mostrando as conexões entre o módulo Arduino e os sensores e também, o sistema de vazão de água e de irrigação por gotejamento que foram criados. O modelo de irrigação por gotejamento foi escolhido para tornar mais precisa a leitura de umidade do solo, pelo fato de ser mais lenta e tornar propícia a melhor distribuição da água pelo solo a ser irrigado.
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op1.PNG)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op2.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op4.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op3.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op5.png)
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Op6.png)
+
+#### **Aplicativo Android**
+
+Para que haja o funcionamento do aplicativo desenvolvido, é necessário um smartphone com o aplicativo “AI Companion” instalado, que auxiliará na sincronização e envio do que foi criado na plataforma online ao telefone. Após essa conexão (que pode ser via QR Code). O programa é renderizado e inicia seu funcionamento no Android.
+
+A imagem a seguir evidencia como é o funcionamento e demonstra o layout de nosso aplicativo programado:
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/App1.PNG)
+
+```
+
+Na primeira parte temos o início do aplicativo já visto anteriormente, acima da seta temos o módulo HC05 identificado na tela do Smartphone e, após a seta, o aplicativo já funcionando com alguns dados de leitura já obtidos após o clique no botão de "atualizar leitura".
+
+```
+
+### **Considerações finais e Conclusão do projeto**
+
+#### **Sobre o método**
+
+O método do desenvolvimento abordado, denominado CDIO, configura-se como um bom e eficiente método por ser dividido em etapas que caracterizam-se por ser essenciais para o desenvolvimento de um bom projeto. A execução sequencial do projeto também auxilia na organização geral diante do fato de que torna-se fácil apontar as principais dificuldades e problemas que o desenvolvimento irá apresentar.
+
+#### **Percepções Pessoais**
+
+Tratando-se especificamente da montagem e programação deste projeto, apenas há a citar, como dificuldade, a construção do sistema de irrigação em si (desconsiderando-se a parte eletrônica) e a análise do solo a ser trabalhado, para verificar qual o estado dele em que pode ser considerada a necessidade de irrigação. Este projeto agrega muito conhecimento a ser adquirido, tanto na parte eletrônica com o entendimento de cada módulo e de cada sensor, além com o próprio microcontrolador Arduino, como na parte de se criar um sistema eficiente de irrigação, que estimula um raciocínio além do conhecimento que normalmente é adquirido no curso de Engenharia Eletrônica. Tornou-se um grande aprendizado sobre a profissão de Engenheiro, em geral e sobre seu importante papel.
+
+#### **Panorama Geral**
+
+Dentro da evolução atual, é possível visualizar a incrível gama de situações em que a tecnologia pode ser aplicada. O termo IoT (Internet of Things) evidencia isso ainda mais ao se fazer uma conexão com elementos do cotidiano que podem, cada vez mais, ser controlados sem necessidade de interferência humana. O projeto desenvolvido é um reflexo disso, podendo ser especificado para ser utilizado tanto em situação doméstica, como o realizado, como em situações comerciais, ao ampliar-se para controlar uma plantação inteira, por exemplo. Este projeto também pode ser visto como uma introdução ao tema recente da Agricultura 4.0 que agrega-se a IoT como um dos termos mais importantes no estudo do avanço das tecnologias e de suas aplicações em desenvolvimento no mundo.
 
