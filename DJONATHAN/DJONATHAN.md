@@ -42,13 +42,104 @@ A imagem abaixo demonstra a planta eletrônica feita para este projeto, a qual e
 
 O sistema que executa a abertura da válvula ao necessitar-se de irrigação foi implementado no microcontrolador através do código abaixo, que foi construído consultando diversos modos de funcionamento de cada módulo e adaptando-os ao objetivo deste projeto:
 
-![alt text](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Sketch_projeto_irriga%C3%A7%C3%A3o.png)
+``` c++
+
+#include <dht.h>   //biblioteca auxiliar para o sensor de umidade e temperatura
+
+//declaração dos pinos digitais e analógicos utilizados
+#define dht_pin 5
+#define inDigitalHigro 52
+#define inAnalogHigro A0
+#define signalRelay 8
+
+dht   my_dht;
+
+//declaração das constantes
+bool dSensor;
+const int led =13;
+const int btpwr=12;
+int aSensor,
+    temperatura = 0x00,   
+    umidade     = 0x00;
+char pin[5]="0000";
+char modo='1';
+
+// função principal declarando frequência de atuação, 
+// determinando os pinos I/O e determinando auxílio visual 
+// para pareamento do HC05.
+void setup() {
+  Serial.begin (9600);
+  pinMode (signalRelay, OUTPUT);
+  pinMode (inDigitalHigro, INPUT);
+  pinMode(led, OUTPUT);
+  pinMode(btpwr, OUTPUT);
+
+  digitalWrite(led, HIGH);
+  delay(4000);
+  digitalWrite(led, LOW);
+
+  digitalWrite(btpwr, HIGH);
+  delay(3000);
+
+  digitalWrite(led, HIGH);
+}
+
+//função em loop responsável pela leitura constante dos valores obtidos
+void loop () {
+  my_dht.read11(dht_pin);
+  temperatura = my_dht.temperature;
+   umidade     = my_dht.humidity;
+  dSensor = digitalRead(inDigitalHigro);
+  aSensor = analogRead (inAnalogHigro);
+  
+    if (dSensor == 0){
+  Serial.println ("Estado do sistema: fechado");
+  }
+
+  else {
+   Serial.println ("Estado do sistema: irrigando");
+  }
+  Serial.print ("Leitura analógica (higrômetro): ");
+  Serial.println(aSensor);
+
+  Serial.print ("Temperatura: ");
+  Serial.print(temperatura);
+  Serial.println("°C");
+  
+  Serial.print ("Umidade do ar: ");
+   Serial.print(umidade);
+   Serial.println ("%");
+   Serial.println ();
+  if (dSensor == 0){
+    digitalWrite (signalRelay, LOW);
+  }
+
+  else {
+   digitalWrite (signalRelay, HIGH);
+  }
+  if(Serial.available()>0){
+   char txt = Serial.read(); 
+   Serial.print(txt);
+  }
+  delay(10000); //Indica que o tempo entre leituras do sistema é de 10 segundos
+}
+```
 
 #### **Aplicativo Android**
 
 O aplicativo que apresentará uma interface visual para o usuário foi desenvolvido através do MIT App Inventor, um sistema disponível em navegador que é utilizado para criar aplicativos com uma vasta gama de recursos disponíveis que podem realizar diversos tipos de funções. Utilizando-se dos recursos do App Inventor, o aplicativo foi desenvolvido para ter duas etapas: A conexão ao módulo HC-05 e, após tal conexão, a atualização dos dados de leitura. 
 
 **- Layout:** A primeira etapa a ser desenvolvida foi a de criação do layout do aplicativo através da aba “Designer” do sistema. É nesta seção que são inseridos todos os componentes que farão parte do aplicativo, como por exemplo, botões, caixas de texto, o cliente de Bluetooth, etc.
+
+![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Capturar.png) ![](https://github.com/LPAE/pi2_eng_20_1/blob/master/DJONATHAN/Components.PNG)
+
+1 - Título especificando o tipo de conexão a ser realizada;
+
+2 - Botão que irá direcionar a conexão Bluetooth com o módulo HC-05;
+
+3 - Título da caixa onde serão exibidas as leituras feitas;
+
+4 - Botão responsável por atualizar as leituras recebidas.
 
 **- Blocos (Programação):** Na aba “Blocks” do App Inventor, é possível realizar a programação de todas as etapas do aplicativo. Para facilitar, o próprio sistema já disponibiliza ações que podem ser efetuadas em relação a cada objeto inserido anteriormente na parte de “Designer”. 
 
